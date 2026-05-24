@@ -6,6 +6,8 @@
 
 **The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
 
+Author: Rupak Biswas.
+
 Use it with a normal prompt plus one trigger:
 
 ```text
@@ -24,7 +26,7 @@ UI/UX Master is built to make agents behave like a senior product designer, UX r
 
 AI agents are great at writing code, but they often struggle with **Information Architecture**, **Accessibility (WCAG)**, and **Design Systems**. `ui-ux-master` bridges this gap. 
 
-By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**, and **GitHub Copilot** the ability to:
+By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**, **Codex**, **Gemini**, **Antigravity**, and universal/custom-instruction agents the ability to:
 - 🧠 **Think like a designer:** Understand user flows and journey maps before coding.
 - ♿ **Audit for accessibility:** Automatically check for WCAG 2.2 AA compliance and ARIA patterns.
 - 🧩 **Enforce design systems:** Keep your brand colors, typography, and spacing consistent.
@@ -41,6 +43,17 @@ By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**
 | Weak accessibility coverage | WCAG 2.2 AA plus advanced ARIA/widget patterns and test matrix |
 | No deployment validation | Release validator, npm package metadata, tests, and deployment zip builder |
 | No product-risk coverage | Ethics, privacy, dark-pattern, high-risk domain, AI-interface, and inclusive-design checks |
+| Hidden from AI tooling | Ships `llms.txt`, machine-readable manifest, system prompt add-ons, and a local MCP server for automatic discovery |
+
+## AI Discoverability
+
+UI/UX Master is now designed for both humans and AI systems to discover:
+
+- `llms.txt` gives agents a concise map of the package.
+- `ai-discovery/ui-ux-master.manifest.json` provides a machine-readable manifest.
+- `system-prompts/` contains full, compact, and MCP-focused system prompt add-ons.
+- `ui-ux-master-mcp` exposes the package through a local MCP server with tools, resources, and prompts.
+- Project installs copy these discovery assets into `.ui-ux-master/` so no-save `npx` installs remain usable after the npm cache disappears.
 
 ## Capabilities
 
@@ -105,8 +118,42 @@ npx ui-ux-master install --project --dry-run
 | Gemini CLI | `GEMINI.md` marked section | type `/ui-ux-master` |
 | Cursor | `.cursor/rules/ui-ux-master.mdc` | type `/ui-ux-master` |
 | Other agents | `agent-templates/universal/ui-ux-master-trigger.md` | copy trigger into instruction file |
+| MCP clients | `ui-ux-master-mcp` | discover tools/resources/prompts automatically |
 
 See `docs/slash-command-compatibility.md` for details.
+
+## System Prompt Add-ons
+
+Copy one of these into any AI custom-instructions field when the agent does not support project rules:
+
+- `system-prompts/ui-ux-master-system-add-on.md` — full add-on.
+- `system-prompts/ui-ux-master-compact.md` — compact add-on.
+- `system-prompts/ui-ux-master-mcp-add-on.md` — MCP-focused add-on.
+
+## MCP Server
+
+Run the local MCP server:
+
+```bash
+ui-ux-master-mcp
+# or without global install
+npx -y --package ui-ux-master ui-ux-master-mcp
+```
+
+MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "ui-ux-master": {
+      "command": "npx",
+      "args": ["-y", "--package", "ui-ux-master", "ui-ux-master-mcp"]
+    }
+  }
+}
+```
+
+See `docs/mcp-server.md` for tools, resources, prompts, and Hermes config.
 
 ## Usage Examples
 
@@ -139,6 +186,8 @@ ui-ux-master install --project --agents claude,codex,windsurf,antigravity,gemini
 ui-ux-master install --project --dry-run
 ui-ux-master doctor
 ui-ux-master where
+ui-ux-master mcp
+ui-ux-master-mcp
 ui-ux-master uninstall --project
 ```
 
@@ -148,8 +197,12 @@ ui-ux-master uninstall --project
 - `references/` — advanced playbooks and standards-aligned checklists.
 - `templates/` — briefs, audits, component specs, design-system specs, and project UI/UX memory template.
 - `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal `/ui-ux-master` activation rules.
-- `docs/` — cross-agent slash-command compatibility docs.
+- `docs/` — cross-agent slash-command compatibility docs and MCP server docs.
+- `system-prompts/` — full, compact, and MCP-focused system prompt add-ons.
+- `ai-discovery/` — machine-readable discovery manifest.
+- `llms.txt` — AI-readable package map.
 - `bin/ui-ux-master.mjs` — npm CLI installer.
+- `bin/ui-ux-master-mcp.mjs` — local MCP server.
 - `scripts/validate_skill.py` — dependency-free release validator.
 - `scripts/build_deployment_zip.py` — clean deployment zip builder.
 - `tests/` — npm installer and package smoke tests.
@@ -188,6 +241,7 @@ UI/UX Master is designed to outperform narrow UI prompt packs and simple design 
 5. Project memory: durable brand/design consistency via `.ui-ux-memory.md`.
 6. Release engineering: npm packaging, CLI installer, validation, tests, and deployment zip.
 7. Advanced risk coverage: ethics, privacy, dark patterns, localization, platform conventions, high-risk domains, and AI UX transparency.
+8. AI discoverability: `llms.txt`, manifest, system prompt add-ons, and local MCP server.
 
 ## Deployment Readiness Checklist
 
@@ -196,6 +250,8 @@ UI/UX Master is designed to outperform narrow UI prompt packs and simple design 
 - [ ] `npm pack --dry-run` contains only intended files.
 - [ ] `ui-ux-master install --project --dry-run` works.
 - [ ] Agent templates contain `/ui-ux-master` and do not include local absolute paths.
+- [ ] System prompt add-ons and MCP docs are included and mention `/ui-ux-master`.
+- [ ] MCP smoke test returns `tools/list` and `resources/list` successfully.
 - [ ] No `node_modules`, `__pycache__`, `.pyc`, graphify cache, coverage, logs, secrets, or local credentials are included.
 
 ## Known Limitations

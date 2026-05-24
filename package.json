@@ -1,10 +1,11 @@
 {
   "name": "ui-ux-master",
-  "version": "1.1.0",
-  "description": "One-stop UI/UX master skill for AI agents with opt-in /ui-ux-master activation across Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal agents.",
+  "version": "1.2.0",
+  "description": "One-stop UI/UX master skill for AI agents with opt-in /ui-ux-master activation, system prompt add-ons, AI discovery assets, and local MCP server support.",
   "type": "module",
   "bin": {
-    "ui-ux-master": "./bin/ui-ux-master.mjs"
+    "ui-ux-master": "./bin/ui-ux-master.mjs",
+    "ui-ux-master-mcp": "./bin/ui-ux-master-mcp.mjs"
   },
   "files": [
     "SKILL.md",
@@ -15,6 +16,9 @@
     "templates/",
     "agent-templates/",
     "docs/",
+    "system-prompts/",
+    "ai-discovery/",
+    "llms.txt",
     "bin/",
     "scripts/",
     "tests/"
@@ -41,10 +45,15 @@
     "cursor",
     "slash-command",
     "agent-skill",
-    "frontend"
+    "frontend",
+    "mcp",
+    "model-context-protocol",
+    "system-prompt",
+    "ai-discovery",
+    "llms-txt"
   ],
   "license": "MIT",
-  "author": "UI/UX Master contributors",
+  "author": "Rupak Biswas",
   "engines": {
     "node": ">=18"
   },

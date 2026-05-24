@@ -81,8 +81,8 @@ function wanted(opts, name) {
 
 function copyProjectSkillAssets(root, dryRun) {
   const dest = path.join(root, '.ui-ux-master');
-  const files = ['SKILL.md', 'README.md', 'LICENSE', 'package.json'];
-  const dirs = ['references', 'templates', 'docs'];
+  const files = ['SKILL.md', 'README.md', 'LICENSE', 'package.json', 'llms.txt'];
+  const dirs = ['references', 'templates', 'docs', 'system-prompts', 'ai-discovery'];
   for (const file of files) {
     writeFile(path.join(dest, file), read(file), dryRun);
   }
@@ -161,7 +161,7 @@ function doctor(opts) {
   console.log(`target root: ${root}`);
   console.log(`node: ${process.version}`);
   console.log(`trigger: /ui-ux-master`);
-  const required = ['SKILL.md', 'README.md', 'references/ui-ux-complete-checklist.md', 'agent-templates/universal/ui-ux-master-trigger.md'];
+  const required = ['SKILL.md', 'README.md', 'llms.txt', 'references/ui-ux-complete-checklist.md', 'agent-templates/universal/ui-ux-master-trigger.md', 'system-prompts/ui-ux-master-system-add-on.md', 'docs/mcp-server.md', 'bin/ui-ux-master-mcp.mjs'];
   let ok = true;
   for (const rel of required) {
     const exists = fs.existsSync(path.join(packageRoot, rel));
@@ -172,7 +172,7 @@ function doctor(opts) {
 }
 
 function help() {
-  console.log(`UI/UX Master\n\nUsage:\n  ui-ux-master install [--project|--global] [--agents claude,codex,windsurf,antigravity,gemini,cursor,universal] [--dir path] [--dry-run]\n  ui-ux-master uninstall [--project] [--dir path] [--dry-run]\n  ui-ux-master doctor [--dir path]\n  ui-ux-master where\n\nAfter install, use: /ui-ux-master <your normal UI/UX prompt>`);
+  console.log(`UI/UX Master\n\nUsage:\n  ui-ux-master install [--project|--global] [--agents claude,codex,windsurf,antigravity,gemini,cursor,universal] [--dir path] [--dry-run]\n  ui-ux-master uninstall [--project] [--dir path] [--dry-run]\n  ui-ux-master doctor [--dir path]\n  ui-ux-master where\n  ui-ux-master mcp\n  ui-ux-master-mcp\n\nAfter install, use: /ui-ux-master <your normal UI/UX prompt>\nMCP: npx -y --package ui-ux-master ui-ux-master-mcp`);
 }
 
 const opts = parseArgs(process.argv.slice(2));
@@ -185,6 +185,8 @@ if (opts.postinstall) {
   uninstallProject(findProjectRoot(opts.dir || process.cwd()), opts);
 } else if (opts.command === 'doctor') {
   doctor(opts);
+} else if (opts.command === 'mcp' || opts.command === 'ui-ux-master-mcp') {
+  await import('./ui-ux-master-mcp.mjs');
 } else if (opts.command === 'where') {
   console.log(packageRoot);
 } else {

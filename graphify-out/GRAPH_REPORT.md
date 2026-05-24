@@ -1,16 +1,16 @@
 # Graph Report - UI-UX Skills  (2026-05-24)
 
 ## Corpus Check
-- 36 files · ~23,830 words
+- 41 files · ~27,305 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 477 nodes · 495 edges · 37 communities (32 shown, 5 thin omitted)
+- 550 nodes · 591 edges · 42 communities (36 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7c4838a5`
+- Built from commit: `8c0cf100`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -50,31 +50,36 @@
 - [[_COMMUNITY_Community 32|Community 32]]
 - [[_COMMUNITY_Community 33|Community 33]]
 - [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Required Implementation Order` - 18 edges
-2. `UI/UX Master Skill` - 17 edges
-3. `UI/UX Complete Checklist` - 16 edges
-4. `Component Spec` - 16 edges
-5. `UI/UX Master` - 15 edges
+1. `UI/UX Master 🎨✨` - 19 edges
+2. `UI/UX Master Skill` - 18 edges
+3. `Required Implementation Order` - 18 edges
+4. `UI/UX Complete Checklist` - 16 edges
+5. `Component Spec` - 16 edges
 6. `UI/UX Memory` - 15 edges
-7. `Universal UI/UX Workflow` - 14 edges
-8. `Top-Brand Frontend Spec Template` - 14 edges
-9. `UI/UX Audit Report` - 14 edges
-10. `Core Methods` - 13 edges
+7. `fail()` - 14 edges
+8. `Universal UI/UX Workflow` - 14 edges
+9. `Top-Brand Frontend Spec Template` - 14 edges
+10. `UI/UX Audit Report` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (37 total, 5 thin omitted)
+## Communities (42 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
-Nodes (41): Capabilities, CLI Commands, code:text (/ui-ux-master audit this dashboard and give me implementatio), code:text (/ui-ux-master inspect this dashboard and improve hierarchy, ), code:text (/ui-ux-master turn this rough product idea into IA, user flo), code:bash (ui-ux-master install --project), code:bash (python scripts/validate_skill.py --release), code:bash (python scripts/build_deployment_zip.py) (+33 more)
+Nodes (47): AI Discoverability, Capabilities, CLI Commands, code:text (/ui-ux-master audit this dashboard and give me implementatio), code:text (/ui-ux-master audit the checkout flow for accessibility, tru), code:text (/ui-ux-master create a design system starter for this app us), code:text (/ui-ux-master inspect this dashboard and improve hierarchy, ), code:text (/ui-ux-master turn this rough product idea into IA, user flo) (+39 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
-Nodes (33): Adaptive Brand and Memory Behavior, Always Produce Useful Output, Ask Only High-Value Questions, Common Pitfalls, Core Operating Rule, Cross-Agent Activation, Design Token Starter Set, Handoff Output Template (+25 more)
+Nodes (31): Adaptive Brand and Memory Behavior, AI Discovery and MCP, Always Produce Useful Output, Ask Only High-Value Questions, Common Pitfalls, Core Operating Rule, Cross-Agent Activation, Design Specialties Covered (+23 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.07
@@ -85,121 +90,139 @@ Cohesion: 0.07
 Nodes (27): Accessibility Rules, Brand Personality, Buttons, Cards/Panels, Colors, Component Rules, Content and Microcopy Voice, Design Decision Change Log (+19 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.09
-Nodes (22): 10. Technical Authority Method, 1. Product Cinema Method, 2. Utility Command Center Method, 3. Editorial Brand World Method, 4. Enterprise Trust Hub Method, 5. Card-Based Discovery Method, 6. Conversion Simplicity Method, 7. Ecosystem Bundling Method (+14 more)
+Cohesion: 0.16
+Nodes (21): assetMap, callTool(), err(), __filename, getPrompt(), handle(), installInstructions(), jsonText() (+13 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.09
-Nodes (22): 10. Accessibility, 11. Responsive Design, 12. Trust, Safety, and Ethics, 13. Performance Perception, 14. Handoff, 1. Product Fit, 2. Information Architecture, 3. User Flows (+14 more)
+Nodes (22): 10. Technical Authority Method, 1. Product Cinema Method, 2. Utility Command Center Method, 3. Editorial Brand World Method, 4. Enterprise Trust Hub Method, 5. Card-Based Discovery Method, 6. Conversion Simplicity Method, 7. Ecosystem Bundling Method (+14 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.09
-Nodes (22): Button, Card, Chart/Data Visualization, Checkbox/Radio/Switch, Color Tokens, Components, Content, Localization, and Data Visualization Tokens, Design System Spec (+14 more)
+Nodes (22): 10. Accessibility, 11. Responsive Design, 12. Trust, Safety, and Ethics, 13. Performance Perception, 14. Handoff, 1. Product Fit, 2. Information Architecture, 3. User Flows (+14 more)
 
 ### Community 7 - "Community 7"
+Cohesion: 0.09
+Nodes (22): Button, Card, Chart/Data Visualization, Checkbox/Radio/Switch, Color Tokens, Components, Content, Localization, and Data Visualization Tokens, Design System Spec (+14 more)
+
+### Community 8 - "Community 8"
 Cohesion: 0.1
 Nodes (20): Analytics and Support Synthesis, Card Sorting, Competitive and Comparative Analysis, Contextual Inquiry, Core Methods, Deliverables, Diary Study, Evidence Confidence Levels (+12 more)
 
-### Community 8 - "Community 8"
+### Community 9 - "Community 9"
 Cohesion: 0.2
 Nodes (16): appendMarked(), copyDir(), copyProjectSkillAssets(), doctor(), escapeRegExp(), __filename, findProjectRoot(), installGlobal() (+8 more)
 
-### Community 9 - "Community 9"
+### Community 10 - "Community 10"
 Cohesion: 0.11
 Nodes (18): Acceptance Criteria and Test Matrix, Accessibility, Anatomy, Bad, Behavior, Component Name, Component Spec, Content Guidelines (+10 more)
 
-### Community 10 - "Community 10"
+### Community 11 - "Community 11"
 Cohesion: 0.11
 Nodes (18): Accessibility Fixes, Copy Improvements, Critical, Executive Summary, Heuristic Findings, High, Low, Measured Evidence and Quality Gates (+10 more)
 
-### Community 11 - "Community 11"
-Cohesion: 0.37
-Nodes (14): check_agent_templates(), check_bin_installer(), check_markdown_links(), check_package_json(), check_referenced_files_exist(), check_release_artifacts(), check_required_files(), check_required_headings() (+6 more)
-
 ### Community 12 - "Community 12"
+Cohesion: 0.33
+Nodes (16): check_agent_templates(), check_bin_installer(), check_discovery_assets(), check_markdown_links(), check_mcp_server(), check_package_json(), check_referenced_files_exist(), check_release_artifacts() (+8 more)
+
+### Community 13 - "Community 13"
+Cohesion: 0.12
+Nodes (16): Activation Reminder, Claude Desktop / MCP Client Config, code:bash (ui-ux-master-mcp), code:bash (npx -y --package ui-ux-master ui-ux-master-mcp), code:json ({), code:yaml (mcp_servers:), code:bash (printf '{"jsonrpc":"2.0","id":1,"method":"initialize","param), Hermes Native MCP Config (+8 more)
+
+### Community 14 - "Community 14"
+Cohesion: 0.13
+Nodes (12): agents, bin, dir, manifest, mcpBin, out, pkg, required (+4 more)
+
+### Community 15 - "Community 15"
 Cohesion: 0.13
 Nodes (14): 10. Implementation Notes, 11. Do Not Copy, 11. Quality Gates, 12. Do Not Copy, 1. Product Context, 2. Brand-Inspiration Blend, 3. UX Structure, 4. Layout Rules (+6 more)
 
-### Community 13 - "Community 13"
+### Community 16 - "Community 16"
+Cohesion: 0.14
+Nodes (14): Phase 10: Prototype and Handoff, Phase 11: Measurement and Quality Gates, Phase 12: Ethics, Privacy, Inclusion, and Localization, Phase 1: Product and User Understanding, Phase 1B: UX Research and Evidence, Phase 2: UX Strategy, Phase 3: Information Architecture, Phase 4: User Flows (+6 more)
+
+### Community 17 - "Community 17"
 Cohesion: 0.15
 Nodes (12): Color, Component Specification Requirements, Design System Audit Questions, Design System Playbook, Foundations, Governance, Minimum Component Set, Motion (+4 more)
 
-### Community 14 - "Community 14"
+### Community 18 - "Community 18"
 Cohesion: 0.15
 Nodes (12): Adaptive Decision Rules, Conflict Resolution, Core Principle, Existing Branding Inspection Checklist, Existing Product Behavior, Fresh Product Behavior, How to Use Memory During Implementation, Memory File Location (+4 more)
 
-### Community 15 - "Community 15"
+### Community 19 - "Community 19"
 Cohesion: 0.17
 Nodes (11): Accessibility Acceptance Criteria, Common Agent Fixes, Contrast, Core Principles, Forms, Images and Media, Keyboard, Motion and Timing (+3 more)
 
-### Community 16 - "Community 16"
+### Community 20 - "Community 20"
 Cohesion: 0.17
 Nodes (11): Assumptions, Competitive/Reference Direction, Constraints, Current Problem, Deliverables Needed, Goal, Open Questions, Project (+3 more)
 
-### Community 17 - "Community 17"
-Cohesion: 0.18
-Nodes (11): Design Specialties Covered, Design Systems, Ecommerce UX, Forms UX, Frontend Implementation UX, Landing Page and Conversion UX, Mobile and Platform-Specific UX, Mobile UX (+3 more)
-
-### Community 18 - "Community 18"
+### Community 21 - "Community 21"
 Cohesion: 0.18
 Nodes (10): code:bash (npx ui-ux-master install --project), code:bash (npm install -g ui-ux-master), Global Install, Native Slash Commands vs Text Triggers, Project-local Install, Security and Consent, Slash Command Compatibility, Supported Agents (+2 more)
 
-### Community 19 - "Community 19"
+### Community 22 - "Community 22"
 Cohesion: 0.18
 Nodes (10): Android / Material, Authoritative Sources to Check, Cross-Platform Rule, Email UI, iOS / Apple Platforms, Kiosk / Touchscreen, Platform Guidelines for UI/UX Agents, TV / Remote (+2 more)
 
-### Community 20 - "Community 20"
+### Community 23 - "Community 23"
 Cohesion: 0.2
-Nodes (8): agents, bin, dir, out, pkg, root, templates, text
+Nodes (9): Behavior, Claude Desktop / Other MCP Clients Example, code:bash (npx ui-ux-master-mcp), code:bash (ui-ux-master-mcp), code:yaml (mcp_servers:), code:json ({), Hermes Example, MCP Discovery (+1 more)
 
-### Community 21 - "Community 21"
+### Community 24 - "Community 24"
 Cohesion: 0.25
 Nodes (7): Content Design and Internationalization, Content Design Principles, Content Handoff, Inclusive Language, Internationalization Checklist, Microcopy Patterns, Voice and Tone
 
-### Community 22 - "Community 22"
+### Community 25 - "Community 25"
 Cohesion: 0.25
 Nodes (7): Common Agent Fixes, Heuristic Review Output, Nielsen's 10 Usability Heuristics, Norman Interaction Principles, Practical Cognitive Rules, Severity Rating, Usability Heuristics and Expert Review
 
-### Community 23 - "Community 23"
+### Community 26 - "Community 26"
 Cohesion: 0.29
 Nodes (6): Accessible Handoff, Advanced Accessibility Patterns, Complex Widget Checklist, Core Rule, Testing Matrix, WCAG 2.2 Criteria to Remember
 
-### Community 24 - "Community 24"
+### Community 27 - "Community 27"
 Cohesion: 0.29
 Nodes (6): Competitive Landscape and Differentiation, Gaps UI/UX Master Must Beat, Remaining Honest Limitations, Strategy to Stay Ahead, What Existing Tools Do Well, Where Narrow Skills Often Outperform Generic UI Prompts
 
-### Community 25 - "Community 25"
+### Community 28 - "Community 28"
 Cohesion: 0.29
 Nodes (6): Alerting, Chart Quality Checklist, Chart Selection, Dashboard Principles, Data Visualization and Dashboard UX, Tables and Data Grids
 
-### Community 26 - "Community 26"
+### Community 29 - "Community 29"
 Cohesion: 0.29
 Nodes (6): AI Interface Ethics, Dark Pattern Checks, Ethical, Privacy, and Inclusive Design, High-Risk Domains, Inclusive Design, Privacy UX
 
-### Community 27 - "Community 27"
+### Community 30 - "Community 30"
 Cohesion: 0.29
 Nodes (6): Common UX Measures, Experimentation Guardrails, Frontend Performance Gates, Metric Selection, Quality Gate Template, UX Measurement and Quality Gates
 
-### Community 28 - "Community 28"
+### Community 31 - "Community 31"
+Cohesion: 0.29
+Nodes (6): Activation Rule, Default Output Shape, Quality Bar, Required Behavior, Source of Truth, UI/UX Master System Prompt Add-on
+
+### Community 32 - "Community 32"
 Cohesion: 0.33
 Nodes (5): Journey Map Elements, Omnichannel Checks, Service Blueprint Elements, Service Design and Journey Mapping, When to Use
 
-### Community 29 - "Community 29"
+### Community 33 - "Community 33"
 Cohesion: 0.33
 Nodes (5): Advanced Practice, Agent Rule, Beginner Foundations, Intermediate Practice, UI/UX Curriculum and Standards Map
 
 ## Knowledge Gaps
-- **345 isolated node(s):** `__filename`, `packageRoot`, `opts`, `root`, `bin` (+340 more)
+- **378 isolated node(s):** `__filename`, `packageRoot`, `assetMap`, `resourceMap`, `rl` (+373 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `UI/UX Master Skill` connect `Community 1` to `Community 17`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `__filename`, `packageRoot`, `opts` to the rest of the system?**
-  _345 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `UI/UX Master Skill` connect `Community 1` to `Community 16`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `Universal UI/UX Workflow` connect `Community 16` to `Community 1`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **What connects `__filename`, `packageRoot`, `assetMap` to the rest of the system?**
+  _378 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
@@ -208,5 +231,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.09 - nodes in this community are weakly interconnected._

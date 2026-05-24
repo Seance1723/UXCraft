@@ -21,7 +21,14 @@ REQUIRED = [
     "LICENSE",
     "package.json",
     "bin/ui-ux-master.mjs",
+    "bin/ui-ux-master-mcp.mjs",
     "docs/slash-command-compatibility.md",
+    "docs/mcp-server.md",
+    "llms.txt",
+    "ai-discovery/ui-ux-master.manifest.json",
+    "system-prompts/ui-ux-master-system-add-on.md",
+    "system-prompts/ui-ux-master-compact.md",
+    "system-prompts/ui-ux-master-mcp-add-on.md",
     "agent-templates/claude/commands/ui-ux-master.md",
     "agent-templates/universal/ui-ux-master-trigger.md",
     "agent-templates/codex/AGENTS.append.md",
@@ -77,11 +84,17 @@ REQUIRED_PHRASES = [
     "privacy",
     "/ui-ux-master",
     "Cross-Agent Activation",
+    "AI Discovery and MCP",
+    "system prompt",
+    "MCP",
 ]
 
 REQUIRED_HEADINGS = {
     "README.md": ["## Install with npm", "## Supported Agents", "## Competitive Positioning", "## Validation and Testing", "## Deployment Readiness Checklist"],
     "docs/slash-command-compatibility.md": ["## What `/ui-ux-master` Does", "## Native Slash Commands vs Text Triggers", "## Supported Agents"],
+    "docs/mcp-server.md": ["## Why MCP Matters", "## Tools", "## Resources", "## Prompts", "## Security"],
+    "system-prompts/ui-ux-master-system-add-on.md": ["## Activation Rule", "## Source of Truth", "## Required Behavior"],
+    "system-prompts/ui-ux-master-mcp-add-on.md": ["## MCP Discovery", "## Behavior", "## Hermes Example"],
     "references/ux-research-methods.md": ["## Research Decision Tree", "## Research Plan Template", "## Evidence Confidence Levels"],
     "references/usability-heuristics.md": ["## Nielsen's 10 Usability Heuristics", "## Severity Rating"],
     "references/platform-guidelines.md": ["## Web App", "## iOS / Apple Platforms", "## Android / Material", "## Cross-Platform Rule"],
@@ -170,6 +183,8 @@ def check_skill_frontmatter_and_body() -> None:
         fail("description must be <=1024 chars")
     if not description.startswith("Use when"):
         fail('description should start with "Use when"')
+    if fm.get("author") != "Rupak Biswas":
+        fail("SKILL.md author must be Rupak Biswas")
     if len(content) > 100_000:
         fail("SKILL.md exceeds 100,000 characters")
     if len(content) > 45_000:
@@ -185,7 +200,7 @@ def check_package_json() -> None:
         data = json.loads(PACKAGE.read_text(encoding="utf-8"))
     except Exception as exc:
         fail(f"package.json is invalid JSON: {exc}")
-    for key in ["name", "version", "description", "type", "bin", "files", "scripts", "license", "engines"]:
+    for key in ["name", "version", "description", "type", "bin", "files", "scripts", "license", "author", "engines"]:
         if key not in data:
             fail(f"package.json missing {key}")
     if data["name"] != "ui-ux-master":
@@ -196,10 +211,14 @@ def check_package_json() -> None:
         fail("package.json license must be MIT")
     if data.get("bin", {}).get("ui-ux-master") != "./bin/ui-ux-master.mjs":
         fail("package.json bin.ui-ux-master must point to ./bin/ui-ux-master.mjs")
+    if data.get("bin", {}).get("ui-ux-master-mcp") != "./bin/ui-ux-master-mcp.mjs":
+        fail("package.json bin.ui-ux-master-mcp must point to ./bin/ui-ux-master-mcp.mjs")
+    if data.get("author") != "Rupak Biswas":
+        fail("package.json author must be Rupak Biswas")
     for script in ["validate", "test", "prepack"]:
         if script not in data.get("scripts", {}):
             fail(f"package.json scripts missing {script}")
-    required_files = ["SKILL.md", "references/", "templates/", "agent-templates/", "docs/", "bin/", "scripts/", "tests/"]
+    required_files = ["SKILL.md", "references/", "templates/", "agent-templates/", "docs/", "system-prompts/", "ai-discovery/", "llms.txt", "bin/", "scripts/", "tests/"]
     for item in required_files:
         if item not in data.get("files", []):
             fail(f"package.json files missing {item}")
@@ -209,7 +228,7 @@ def check_bin_installer() -> None:
     text = (ROOT / "bin/ui-ux-master.mjs").read_text(encoding="utf-8")
     if not text.startswith("#!/usr/bin/env node"):
         fail("bin/ui-ux-master.mjs must have node shebang")
-    for phrase in ["install", "doctor", "uninstall", "--dry-run", "fileURLToPath", "/ui-ux-master", "copyProjectSkillAssets", ".ui-ux-master"]:
+    for phrase in ["install", "doctor", "uninstall", "--dry-run", "fileURLToPath", "/ui-ux-master", "copyProjectSkillAssets", ".ui-ux-master", "system-prompts", "ai-discovery", "ui-ux-master-mcp"]:
         if phrase not in text:
             fail(f"bin installer missing {phrase}")
     forbidden = ["C:\\", "C:/xampp", "C:/Users", "/home/"]
@@ -234,9 +253,53 @@ def check_agent_templates() -> None:
             fail(f"slash compatibility docs missing {agent}")
 
 
+def check_mcp_server() -> None:
+    text = (ROOT / "bin/ui-ux-master-mcp.mjs").read_text(encoding="utf-8")
+    if not text.startswith("#!/usr/bin/env node"):
+        fail("bin/ui-ux-master-mcp.mjs must have node shebang")
+    for phrase in ["tools/list", "tools/call", "resources/list", "resources/read", "prompts/list", "prompts/get", "ui-ux-master://skill", "generate_system_prompt"]:
+        if phrase not in text:
+            fail(f"MCP server missing {phrase}")
+    for bad in ["C:\\", "C:/xampp", "C:/Users", "/workspace"]:
+        if bad in text:
+            fail(f"MCP server contains local absolute path: {bad}")
+
+
+def check_discovery_assets() -> None:
+    manifest = json.loads((ROOT / "ai-discovery/ui-ux-master.manifest.json").read_text(encoding="utf-8"))
+    if manifest.get("author") != "Rupak Biswas":
+        fail("AI manifest author must be Rupak Biswas")
+    if manifest.get("activation", {}).get("trigger") != "/ui-ux-master":
+        fail("AI manifest trigger must be /ui-ux-master")
+    if "ui-ux-master-mcp" not in manifest.get("entrypoints", {}).get("mcp_server_bin", ""):
+        fail("AI manifest missing mcp_server_bin entrypoint")
+    expected_resources = {
+        "ui-ux-master://skill",
+        "ui-ux-master://readme",
+        "ui-ux-master://llms",
+        "ui-ux-master://manifest",
+        "ui-ux-master://system-prompt",
+        "ui-ux-master://compact-prompt",
+        "ui-ux-master://mcp-prompt",
+        "ui-ux-master://mcp-docs",
+        "ui-ux-master://checklist",
+        "ui-ux-master://memory-template",
+    }
+    actual_resources = set(manifest.get("mcp", {}).get("resources", []))
+    missing_resources = sorted(expected_resources - actual_resources)
+    if missing_resources:
+        fail("AI manifest missing MCP resources: " + ", ".join(missing_resources))
+    for rel in ["README.md", "LICENSE", "llms.txt", "system-prompts/ui-ux-master-system-add-on.md", "system-prompts/ui-ux-master-compact.md", "system-prompts/ui-ux-master-mcp-add-on.md", "docs/mcp-server.md"]:
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        if rel in {"README.md", "LICENSE"} and "Rupak Biswas" not in text:
+            fail(f"{rel} must identify Rupak Biswas")
+        if rel not in {"LICENSE"} and "/ui-ux-master" not in text:
+            fail(f"{rel} must mention /ui-ux-master")
+
+
 def check_referenced_files_exist() -> None:
     content = SKILL.read_text(encoding="utf-8")
-    refs = sorted(set(re.findall(r"`((?:references|templates|agent-templates|docs|bin|scripts)/[^`]+?\.(?:md|mjs|py)|README\.md)`", content)))
+    refs = sorted(set(re.findall(r"`((?:references|templates|agent-templates|docs|bin|scripts|system-prompts|ai-discovery)/[^`]+?\.(?:md|mdc|mjs|py|json)|README\.md|llms\.txt)`", content)))
     for rel in refs:
         if rel in {"docs/ui-ux-memory.md", "docs/design/ui-ux-memory.md", "design/ui-ux-memory.md"}:
             continue
@@ -289,6 +352,8 @@ def main() -> None:
     check_package_json()
     check_bin_installer()
     check_agent_templates()
+    check_mcp_server()
+    check_discovery_assets()
     check_referenced_files_exist()
     check_markdown_links()
     check_release_artifacts(strict=args.release)
