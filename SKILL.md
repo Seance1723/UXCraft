@@ -1,7 +1,7 @@
 ---
 name: ui-ux-master
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
-version: 1.0.0
+version: 1.1.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -18,6 +18,12 @@ metadata:
 This is a one-stop UI/UX skill for agents. Use it whenever the user asks for anything related to user experience, interface design, product design, design systems, wireframes, prototypes, frontend polish, accessibility, conversion, usability, or design critique.
 
 The job is not only to make screens look good. The job is to solve the user's goal with a usable, accessible, coherent, implementable interface. Always connect design choices to user needs, product goals, content, system constraints, and measurable outcomes.
+
+## Cross-Agent Activation
+
+This skill is opt-in. In Codex, Claude, Windsurf, Antigravity, Gemini, Cursor, and other agents, activate it only when the user includes `/ui-ux-master` in the prompt or invokes the installed native slash command. If the user does not mention `/ui-ux-master`, do not apply this skill automatically.
+
+When activated, the user can write naturally, for example: `/ui-ux-master audit this checkout flow` or `/ui-ux-master design a premium SaaS landing page`. Treat the rest of the prompt as the task and follow this SKILL.md plus the referenced files.
 
 ## Core Operating Rule
 
@@ -687,7 +693,21 @@ Use the supporting files in this skill folder when useful:
 - `references/ui-ux-frontend-implementation-rules.md` — mandatory frontend implementation rules so agents do not miss stack inspection, states, accessibility, responsiveness, tokens, QA, or handoff.
 - `references/wcag-aa-quick-reference.md` — practical WCAG 2.2 AA reference for agents.
 - `references/design-system-playbook.md` — how to create or extend a design system.
-- `references/top-100-brand-website-analysis.md` — top 100 global brand website patterns and reusable frontend methods.
+- `references/top-100-brand-website-analysis.md` — top global brand website patterns and reusable frontend methods.
+- `references/ux-research-methods.md` — research planning, method selection, evidence confidence, and ethical research rules.
+- `references/usability-heuristics.md` — heuristic review, cognitive rules, and severity scoring.
+- `references/platform-guidelines.md` — web, iOS, Android/Material, Windows, desktop, kiosk, email, TV, and cross-platform rules.
+- `references/content-design-and-i18n.md` — UX writing, microcopy, localization, RTL, and content handoff.
+- `references/ux-measurement-quality-gates.md` — task success metrics, UX measurement, accessibility gates, and definition of done.
+- `references/ethical-inclusive-design.md` — dark-pattern avoidance, privacy UX, inclusive design, high-risk and AI interface rules.
+- `references/service-design-journey-mapping.md` — journey maps, service blueprints, support handoff, and omnichannel checks.
+- `references/data-visualization-dashboard-ux.md` — dashboard, table, chart, data-grid, and alerting UX rules.
+- `references/accessibility-advanced-patterns.md` — complex widget accessibility and screen-reader test matrix.
+- `references/ui-ux-curriculum-and-standards.md` — basic-to-advanced UI/UX curriculum and standards map.
+- `references/competitive-landscape.md` — competitor gaps and strategy for staying ahead.
+- `docs/slash-command-compatibility.md` — cross-agent `/ui-ux-master` trigger compatibility.
+- `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal installer templates.
+- `bin/ui-ux-master.mjs` — npm CLI installer.
 - `templates/ui-ux-brief.md` — intake and requirements template.
 - `templates/ui-ux-memory.md` — project UI/UX memory file template to copy into an application root as `.ui-ux-memory.md`.
 - `templates/ui-ux-audit-report.md` — audit output template.

@@ -3,5 +3,10 @@
 __pycache__/
 *.pyc
 graphify-out/cache/
+node_modules/
+coverage/
+.nyc_output/
+*.tgz
+npm-debug.log*
 .DS_Store
 Thumbs.db

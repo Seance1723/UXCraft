@@ -10,8 +10,9 @@ src = Path(__file__).resolve().parents[1]
 out = src.parent / "ui-ux-master-deployment.zip"
 if out.exists():
     out.unlink()
-exclude_dirs = {".git", "graphify-out", "__pycache__"}
-exclude_suffixes = {".pyc"}
+exclude_dirs = {".git", "graphify-out", "__pycache__", "node_modules", "coverage", ".nyc_output"}
+exclude_suffixes = {".pyc", ".tgz"}
+exclude_names = {"npm-debug.log"}
 
 with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
     for path in src.rglob("*"):
@@ -19,6 +20,8 @@ with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         if set(rel.parts) & exclude_dirs:
             continue
         if path.suffix in exclude_suffixes:
+            continue
+        if path.name in exclude_names or path.name.startswith("npm-debug.log"):
             continue
         if path.is_file():
             z.write(path, Path("ui-ux-master") / rel)

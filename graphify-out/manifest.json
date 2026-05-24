@@ -1,23 +1,63 @@
 {
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\bin\\ui-ux-master.mjs": {
+    "mtime": 1779617118.201746,
+    "hash": "de53adabf14ec5285c5142be7b3bca19"
+  },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\scripts\\build_deployment_zip.py": {
-    "mtime": 1779612518.7500117,
-    "hash": "3fc9b826a991a918be2248d2f378321c"
+    "mtime": 1779615494.5953934,
+    "hash": "f3362abe7666e3fb516bbe0b528cd2ef"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\scripts\\validate_skill.py": {
-    "mtime": 1779611842.2971475,
-    "hash": "8c4aa9582e4510cf39e5f0f635c0aeef"
+    "mtime": 1779617990.9080768,
+    "hash": "c4baa526cdb8b582064046ada13a3441"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\tests\\install-smoke.test.mjs": {
+    "mtime": 1779617985.7644827,
+    "hash": "b4491857529d8420560e7ac1dc2b4f60"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\README.md": {
-    "mtime": 1779611660.7557147,
-    "hash": "137a54e18d82e08ca06b34d72d62cc48"
+    "mtime": 1779617139.1037874,
+    "hash": "ef38c0fe34be99c7fd417c58b7e973aa"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\SKILL.md": {
-    "mtime": 1779611718.5385349,
-    "hash": "6b79eebe2144a23c422319eb8006411c"
+    "mtime": 1779615553.4666626,
+    "hash": "7ee09229802c7e8b3ae59cba24879b53"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\antigravity\\AGENTS.append.md": {
+    "mtime": 1779617136.2182817,
+    "hash": "a72a912a2189c8e8a63af7e484b89438"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\claude\\commands\\ui-ux-master.md": {
+    "mtime": 1779617134.2520747,
+    "hash": "2b2688b515b59b3342fac62c40373899"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\codex\\AGENTS.append.md": {
+    "mtime": 1779617135.1971915,
+    "hash": "a72a912a2189c8e8a63af7e484b89438"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\gemini\\GEMINI.append.md": {
+    "mtime": 1779617979.7251582,
+    "hash": "2373eccb70c56e95bcc691514fd3d21b"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\universal\\ui-ux-master-trigger.md": {
+    "mtime": 1779617133.3428037,
+    "hash": "981c7b041fbea697cbb16be2c00307db"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\windsurf\\rules\\ui-ux-master.md": {
+    "mtime": 1779617137.2740784,
+    "hash": "ded9d858e1192ce9838608bcca5e3f20"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\docs\\slash-command-compatibility.md": {
+    "mtime": 1779617138.1799526,
+    "hash": "c3de5421bc8efc5dac43b080264815ea"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\accessibility-advanced-patterns.md": {
     "mtime": 1779611659.671911,
     "hash": "1b4b299e78de11ed8b53e1f569234e3b"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\competitive-landscape.md": {
+    "mtime": 1779615513.1316595,
+    "hash": "3e565cb2c0f69b3a12b9cb82fd57702f"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\content-design-and-i18n.md": {
     "mtime": 1779611656.827204,
@@ -48,16 +88,16 @@
     "hash": "f1da2baf338848789338b74420a46aea"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\ui-ux-complete-checklist.md": {
-    "mtime": 1779611870.3902423,
-    "hash": "c89339f55df060b1a42fb35f5584d4c1"
+    "mtime": 1779612566.0503912,
+    "hash": "05b1d29222b34c57e2a270f245502697"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\ui-ux-curriculum-and-standards.md": {
     "mtime": 1779611660.2247128,
     "hash": "9b8a191d9b0417a3722eed71e3ec0efb"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\ui-ux-frontend-implementation-rules.md": {
-    "mtime": 1779611870.3917077,
-    "hash": "aec83f06dd53f98105b2089ee4e8884e"
+    "mtime": 1779612566.0521326,
+    "hash": "14a7f970ec2794726a03e89158d3ac4a"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\ui-ux-memory-workflow.md": {
     "mtime": 1779609465.9584022,

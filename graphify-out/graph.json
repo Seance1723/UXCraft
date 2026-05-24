@@ -4,12 +4,183 @@
   "graph": {},
   "nodes": [
     {
+      "label": "ui-ux-master.mjs",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L1",
+      "id": "bin_ui_ux_master_mjs",
+      "community": 8,
+      "norm_label": "ui-ux-master.mjs"
+    },
+    {
+      "label": "__filename",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L7",
+      "id": "bin_ui_ux_master_filename",
+      "community": 8,
+      "norm_label": "__filename"
+    },
+    {
+      "label": "packageRoot",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L8",
+      "id": "bin_ui_ux_master_packageroot",
+      "community": 8,
+      "norm_label": "packageroot"
+    },
+    {
+      "label": "read()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L12",
+      "id": "bin_ui_ux_master_read",
+      "community": 8,
+      "norm_label": "read()"
+    },
+    {
+      "label": "mkdirp()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L16",
+      "id": "bin_ui_ux_master_mkdirp",
+      "community": 8,
+      "norm_label": "mkdirp()"
+    },
+    {
+      "label": "writeFile()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L21",
+      "id": "bin_ui_ux_master_writefile",
+      "community": 8,
+      "norm_label": "writefile()"
+    },
+    {
+      "label": "appendMarked()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L31",
+      "id": "bin_ui_ux_master_appendmarked",
+      "community": 8,
+      "norm_label": "appendmarked()"
+    },
+    {
+      "label": "escapeRegExp()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L45",
+      "id": "bin_ui_ux_master_escaperegexp",
+      "community": 8,
+      "norm_label": "escaperegexp()"
+    },
+    {
+      "label": "parseArgs()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L49",
+      "id": "bin_ui_ux_master_parseargs",
+      "community": 8,
+      "norm_label": "parseargs()"
+    },
+    {
+      "label": "findProjectRoot()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L66",
+      "id": "bin_ui_ux_master_findprojectroot",
+      "community": 8,
+      "norm_label": "findprojectroot()"
+    },
+    {
+      "label": "wanted()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L78",
+      "id": "bin_ui_ux_master_wanted",
+      "community": 8,
+      "norm_label": "wanted()"
+    },
+    {
+      "label": "copyProjectSkillAssets()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L82",
+      "id": "bin_ui_ux_master_copyprojectskillassets",
+      "community": 8,
+      "norm_label": "copyprojectskillassets()"
+    },
+    {
+      "label": "installProject()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L95",
+      "id": "bin_ui_ux_master_installproject",
+      "community": 8,
+      "norm_label": "installproject()"
+    },
+    {
+      "label": "copyDir()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L116",
+      "id": "bin_ui_ux_master_copydir",
+      "community": 8,
+      "norm_label": "copydir()"
+    },
+    {
+      "label": "installGlobal()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L124",
+      "id": "bin_ui_ux_master_installglobal",
+      "community": 8,
+      "norm_label": "installglobal()"
+    },
+    {
+      "label": "uninstallProject()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L133",
+      "id": "bin_ui_ux_master_uninstallproject",
+      "community": 8,
+      "norm_label": "uninstallproject()"
+    },
+    {
+      "label": "doctor()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L158",
+      "id": "bin_ui_ux_master_doctor",
+      "community": 8,
+      "norm_label": "doctor()"
+    },
+    {
+      "label": "help()",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L174",
+      "id": "bin_ui_ux_master_help",
+      "community": 8,
+      "norm_label": "help()"
+    },
+    {
+      "label": "opts",
+      "file_type": "code",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L178",
+      "id": "bin_ui_ux_master_opts",
+      "community": 8,
+      "norm_label": "opts"
+    },
+    {
       "label": "build_deployment_zip.py",
       "file_type": "code",
       "source_file": "scripts/build_deployment_zip.py",
       "source_location": "L1",
       "id": "scripts_build_deployment_zip_py",
-      "community": 27,
+      "community": 35,
       "norm_label": "build_deployment_zip.py"
     },
     {
@@ -18,98 +189,224 @@
       "source_file": "scripts/validate_skill.py",
       "source_location": "L1",
       "id": "scripts_validate_skill_py",
-      "community": 16,
+      "community": 11,
       "norm_label": "validate_skill.py"
     },
     {
       "label": "fail()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L85",
+      "source_location": "L104",
       "id": "scripts_validate_skill_fail",
-      "community": 16,
+      "community": 11,
       "norm_label": "fail()"
     },
     {
       "label": "warn()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L90",
+      "source_location": "L109",
       "id": "scripts_validate_skill_warn",
-      "community": 16,
+      "community": 11,
       "norm_label": "warn()"
     },
     {
       "label": "parse_frontmatter()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L94",
+      "source_location": "L113",
       "id": "scripts_validate_skill_parse_frontmatter",
-      "community": 16,
+      "community": 11,
       "norm_label": "parse_frontmatter()"
+    },
+    {
+      "label": "skill_version()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L133",
+      "id": "scripts_validate_skill_skill_version",
+      "community": 11,
+      "norm_label": "skill_version()"
     },
     {
       "label": "check_required_files()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L115",
+      "source_location": "L138",
       "id": "scripts_validate_skill_check_required_files",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_required_files()"
     },
     {
       "label": "check_required_headings()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L126",
+      "source_location": "L149",
       "id": "scripts_validate_skill_check_required_headings",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_required_headings()"
     },
     {
       "label": "check_skill_frontmatter_and_body()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L134",
+      "source_location": "L157",
       "id": "scripts_validate_skill_check_skill_frontmatter_and_body",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_skill_frontmatter_and_body()"
+    },
+    {
+      "label": "check_package_json()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L183",
+      "id": "scripts_validate_skill_check_package_json",
+      "community": 11,
+      "norm_label": "check_package_json()"
+    },
+    {
+      "label": "check_bin_installer()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L208",
+      "id": "scripts_validate_skill_check_bin_installer",
+      "community": 11,
+      "norm_label": "check_bin_installer()"
+    },
+    {
+      "label": "check_agent_templates()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L221",
+      "id": "scripts_validate_skill_check_agent_templates",
+      "community": 11,
+      "norm_label": "check_agent_templates()"
     },
     {
       "label": "check_referenced_files_exist()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L165",
+      "source_location": "L237",
       "id": "scripts_validate_skill_check_referenced_files_exist",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_referenced_files_exist()"
     },
     {
       "label": "check_markdown_links()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L173",
+      "source_location": "L247",
       "id": "scripts_validate_skill_check_markdown_links",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_markdown_links()"
     },
     {
       "label": "check_release_artifacts()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L185",
+      "source_location": "L258",
       "id": "scripts_validate_skill_check_release_artifacts",
-      "community": 16,
+      "community": 11,
       "norm_label": "check_release_artifacts()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/validate_skill.py",
-      "source_location": "L198",
+      "source_location": "L282",
       "id": "scripts_validate_skill_main",
-      "community": 16,
+      "community": 11,
       "norm_label": "main()"
+    },
+    {
+      "label": "install-smoke.test.mjs",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L1",
+      "id": "tests_install_smoke_test_mjs",
+      "community": 20,
+      "norm_label": "install-smoke.test.mjs"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L8",
+      "id": "tests_install_smoke_test_root",
+      "community": 20,
+      "norm_label": "root"
+    },
+    {
+      "label": "bin",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L9",
+      "id": "tests_install_smoke_test_bin",
+      "community": 20,
+      "norm_label": "bin"
+    },
+    {
+      "label": "pkg",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L10",
+      "id": "tests_install_smoke_test_pkg",
+      "community": 20,
+      "norm_label": "pkg"
+    },
+    {
+      "label": "templates",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L11",
+      "id": "tests_install_smoke_test_templates",
+      "community": 20,
+      "norm_label": "templates"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L21",
+      "id": "tests_install_smoke_test_run",
+      "community": 20,
+      "norm_label": "run()"
+    },
+    {
+      "label": "text",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L33",
+      "id": "tests_install_smoke_test_text",
+      "community": 20,
+      "norm_label": "text"
+    },
+    {
+      "label": "dir",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L48",
+      "id": "tests_install_smoke_test_dir",
+      "community": 20,
+      "norm_label": "dir"
+    },
+    {
+      "label": "out",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L50",
+      "id": "tests_install_smoke_test_out",
+      "community": 20,
+      "norm_label": "out"
+    },
+    {
+      "label": "agents",
+      "file_type": "code",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L67",
+      "id": "tests_install_smoke_test_agents",
+      "community": 20,
+      "norm_label": "agents"
     },
     {
       "label": "README.md",
@@ -117,142 +414,268 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 5,
+      "community": 0,
       "norm_label": "readme.md"
     },
     {
-      "label": "UI-UX Skills",
+      "label": "UI/UX Master",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "ui_ux_skills_readme_ui_ux_skills",
-      "community": 5,
-      "norm_label": "ui-ux skills"
+      "id": "ui_ux_skills_readme_ui_ux_master",
+      "community": 0,
+      "norm_label": "ui/ux master"
     },
     {
-      "label": "What This Package Covers",
+      "label": "code:text (/ui-ux-master audit this dashboard and give me implementatio)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L5",
-      "id": "ui_ux_skills_readme_what_this_package_covers",
-      "community": 5,
-      "norm_label": "what this package covers"
+      "source_location": "L7",
+      "id": "ui_ux_skills_readme_codeblock_1",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master audit this dashboard and give me implementatio)"
+    },
+    {
+      "label": "Why Use UI/UX Master?",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "ui_ux_skills_readme_why_use_ui_ux_master",
+      "community": 0,
+      "norm_label": "why use ui/ux master?"
+    },
+    {
+      "label": "What Makes It Different",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "ui_ux_skills_readme_what_makes_it_different",
+      "community": 0,
+      "norm_label": "what makes it different"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "ui_ux_skills_readme_capabilities",
+      "community": 0,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "Install with npm",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "id": "ui_ux_skills_readme_install_with_npm",
+      "community": 0,
+      "norm_label": "install with npm"
+    },
+    {
+      "label": "code:bash (npm install -g ui-ux-master)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "id": "ui_ux_skills_readme_codeblock_2",
+      "community": 0,
+      "norm_label": "code:bash (npm install -g ui-ux-master)"
+    },
+    {
+      "label": "code:bash (npm install --save-dev ui-ux-master)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "id": "ui_ux_skills_readme_codeblock_3",
+      "community": 0,
+      "norm_label": "code:bash (npm install --save-dev ui-ux-master)"
+    },
+    {
+      "label": "code:bash (npx ui-ux-master install --project)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "id": "ui_ux_skills_readme_codeblock_4",
+      "community": 0,
+      "norm_label": "code:bash (npx ui-ux-master install --project)"
+    },
+    {
+      "label": "code:bash (npx ui-ux-master install --project --agents claude,codex,win)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "id": "ui_ux_skills_readme_codeblock_5",
+      "community": 0,
+      "norm_label": "code:bash (npx ui-ux-master install --project --agents claude,codex,win)"
+    },
+    {
+      "label": "code:bash (npx ui-ux-master install --project --dry-run)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "id": "ui_ux_skills_readme_codeblock_6",
+      "community": 0,
+      "norm_label": "code:bash (npx ui-ux-master install --project --dry-run)"
+    },
+    {
+      "label": "Supported Agents",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L84",
+      "id": "ui_ux_skills_readme_supported_agents",
+      "community": 0,
+      "norm_label": "supported agents"
+    },
+    {
+      "label": "Usage Examples",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "id": "ui_ux_skills_readme_usage_examples",
+      "community": 0,
+      "norm_label": "usage examples"
+    },
+    {
+      "label": "code:text (/ui-ux-master redesign this SaaS onboarding flow for faster )",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "id": "ui_ux_skills_readme_codeblock_7",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master redesign this saas onboarding flow for faster )"
+    },
+    {
+      "label": "code:text (/ui-ux-master audit the checkout flow for accessibility, tru)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "id": "ui_ux_skills_readme_codeblock_8",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master audit the checkout flow for accessibility, tru)"
+    },
+    {
+      "label": "code:text (/ui-ux-master create a design system starter for this app us)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "id": "ui_ux_skills_readme_codeblock_9",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master create a design system starter for this app us)"
+    },
+    {
+      "label": "code:text (/ui-ux-master inspect this dashboard and improve hierarchy, )",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L112",
+      "id": "ui_ux_skills_readme_codeblock_10",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master inspect this dashboard and improve hierarchy, )"
+    },
+    {
+      "label": "code:text (/ui-ux-master turn this rough product idea into IA, user flo)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "id": "ui_ux_skills_readme_codeblock_11",
+      "community": 0,
+      "norm_label": "code:text (/ui-ux-master turn this rough product idea into ia, user flo)"
+    },
+    {
+      "label": "CLI Commands",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L120",
+      "id": "ui_ux_skills_readme_cli_commands",
+      "community": 0,
+      "norm_label": "cli commands"
+    },
+    {
+      "label": "code:bash (ui-ux-master install --project)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "id": "ui_ux_skills_readme_codeblock_12",
+      "community": 0,
+      "norm_label": "code:bash (ui-ux-master install --project)"
     },
     {
       "label": "Package Structure",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L18",
+      "source_location": "L132",
       "id": "ui_ux_skills_readme_package_structure",
-      "community": 5,
+      "community": 0,
       "norm_label": "package structure"
     },
     {
-      "label": "Installation",
+      "label": "Validation and Testing",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L25",
-      "id": "ui_ux_skills_readme_installation",
-      "community": 5,
-      "norm_label": "installation"
-    },
-    {
-      "label": "code:bash (mkdir -p \"$HOME/AppData/Local/hermes/skills/creative/ui-ux-m)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L29",
-      "id": "ui_ux_skills_readme_codeblock_1",
-      "community": 5,
-      "norm_label": "code:bash (mkdir -p \"$home/appdata/local/hermes/skills/creative/ui-ux-m)"
-    },
-    {
-      "label": "Usage",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L36",
-      "id": "ui_ux_skills_readme_usage",
-      "community": 5,
-      "norm_label": "usage"
-    },
-    {
-      "label": "code:text (Load the ui-ux-master skill and produce a complete UI/UX pla)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "id": "ui_ux_skills_readme_codeblock_2",
-      "community": 5,
-      "norm_label": "code:text (load the ui-ux-master skill and produce a complete ui/ux pla)"
-    },
-    {
-      "label": "Validation",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L50",
-      "id": "ui_ux_skills_readme_validation",
-      "community": 5,
-      "norm_label": "validation"
-    },
-    {
-      "label": "code:bash (python scripts/validate_skill.py)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L54",
-      "id": "ui_ux_skills_readme_codeblock_3",
-      "community": 5,
-      "norm_label": "code:bash (python scripts/validate_skill.py)"
-    },
-    {
-      "label": "code:text (PASS: UI/UX skill package is valid)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L60",
-      "id": "ui_ux_skills_readme_codeblock_4",
-      "community": 5,
-      "norm_label": "code:text (pass: ui/ux skill package is valid)"
+      "source_location": "L144",
+      "id": "ui_ux_skills_readme_validation_and_testing",
+      "community": 0,
+      "norm_label": "validation and testing"
     },
     {
       "label": "code:bash (python scripts/validate_skill.py --release)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L66",
-      "id": "ui_ux_skills_readme_codeblock_5",
-      "community": 5,
+      "source_location": "L148",
+      "id": "ui_ux_skills_readme_codeblock_13",
+      "community": 0,
       "norm_label": "code:bash (python scripts/validate_skill.py --release)"
+    },
+    {
+      "label": "code:bash (python scripts/build_deployment_zip.py)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L156",
+      "id": "ui_ux_skills_readme_codeblock_14",
+      "community": 0,
+      "norm_label": "code:bash (python scripts/build_deployment_zip.py)"
+    },
+    {
+      "label": "code:text (PASS: UI/UX skill package is valid)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L162",
+      "id": "ui_ux_skills_readme_codeblock_15",
+      "community": 0,
+      "norm_label": "code:text (pass: ui/ux skill package is valid)"
+    },
+    {
+      "label": "Competitive Positioning",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L167",
+      "id": "ui_ux_skills_readme_competitive_positioning",
+      "community": 0,
+      "norm_label": "competitive positioning"
     },
     {
       "label": "Deployment Readiness Checklist",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L72",
+      "source_location": "L179",
       "id": "ui_ux_skills_readme_deployment_readiness_checklist",
-      "community": 5,
+      "community": 0,
       "norm_label": "deployment readiness checklist"
-    },
-    {
-      "label": "Maintenance",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L82",
-      "id": "ui_ux_skills_readme_maintenance",
-      "community": 5,
-      "norm_label": "maintenance"
     },
     {
       "label": "Known Limitations",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L89",
+      "source_location": "L188",
       "id": "ui_ux_skills_readme_known_limitations",
-      "community": 5,
+      "community": 0,
       "norm_label": "known limitations"
     },
     {
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L95",
+      "source_location": "L196",
       "id": "ui_ux_skills_readme_license",
-      "community": 5,
+      "community": 0,
       "norm_label": "license"
     },
     {
@@ -261,7 +684,7 @@
       "source_file": "SKILL.md",
       "source_location": "L1",
       "id": "skill_md",
-      "community": 7,
+      "community": 1,
       "norm_label": "skill.md"
     },
     {
@@ -270,7 +693,7 @@
       "source_file": "SKILL.md",
       "source_location": "L14",
       "id": "ui_ux_skills_skill_ui_ux_master_skill",
-      "community": 7,
+      "community": 1,
       "norm_label": "ui/ux master skill"
     },
     {
@@ -279,203 +702,212 @@
       "source_file": "SKILL.md",
       "source_location": "L16",
       "id": "ui_ux_skills_skill_overview",
-      "community": 7,
+      "community": 1,
       "norm_label": "overview"
+    },
+    {
+      "label": "Cross-Agent Activation",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L22",
+      "id": "ui_ux_skills_skill_cross_agent_activation",
+      "community": 1,
+      "norm_label": "cross-agent activation"
     },
     {
       "label": "Core Operating Rule",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L22",
+      "source_location": "L28",
       "id": "ui_ux_skills_skill_core_operating_rule",
-      "community": 7,
+      "community": 1,
       "norm_label": "core operating rule"
     },
     {
       "label": "When to Use",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L36",
+      "source_location": "L42",
       "id": "ui_ux_skills_skill_when_to_use",
-      "community": 7,
+      "community": 1,
       "norm_label": "when to use"
     },
     {
       "label": "Required Agent Behavior",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L50",
+      "source_location": "L56",
       "id": "ui_ux_skills_skill_required_agent_behavior",
-      "community": 7,
+      "community": 1,
       "norm_label": "required agent behavior"
     },
     {
       "label": "Adaptive Brand and Memory Behavior",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L52",
+      "source_location": "L58",
       "id": "ui_ux_skills_skill_adaptive_brand_and_memory_behavior",
-      "community": 7,
+      "community": 1,
       "norm_label": "adaptive brand and memory behavior"
     },
     {
       "label": "Ask Only High-Value Questions",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L79",
+      "source_location": "L85",
       "id": "ui_ux_skills_skill_ask_only_high_value_questions",
-      "community": 7,
+      "community": 1,
       "norm_label": "ask only high-value questions"
     },
     {
       "label": "Always Produce Useful Output",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L91",
+      "source_location": "L97",
       "id": "ui_ux_skills_skill_always_produce_useful_output",
-      "community": 7,
+      "community": 1,
       "norm_label": "always produce useful output"
     },
     {
       "label": "Prefer Specifics Over Taste",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L106",
+      "source_location": "L112",
       "id": "ui_ux_skills_skill_prefer_specifics_over_taste",
-      "community": 7,
+      "community": 1,
       "norm_label": "prefer specifics over taste"
     },
     {
       "label": "Universal UI/UX Workflow",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L113",
+      "source_location": "L119",
       "id": "ui_ux_skills_skill_universal_ui_ux_workflow",
-      "community": 11,
+      "community": 1,
       "norm_label": "universal ui/ux workflow"
     },
     {
       "label": "Phase 1: Product and User Understanding",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L115",
+      "source_location": "L121",
       "id": "ui_ux_skills_skill_phase_1_product_and_user_understanding",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 1: product and user understanding"
     },
     {
       "label": "Phase 1B: UX Research and Evidence",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L132",
+      "source_location": "L138",
       "id": "ui_ux_skills_skill_phase_1b_ux_research_and_evidence",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 1b: ux research and evidence"
     },
     {
       "label": "Phase 2: UX Strategy",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L148",
+      "source_location": "L154",
       "id": "ui_ux_skills_skill_phase_2_ux_strategy",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 2: ux strategy"
     },
     {
       "label": "Phase 3: Information Architecture",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L161",
+      "source_location": "L167",
       "id": "ui_ux_skills_skill_phase_3_information_architecture",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 3: information architecture"
     },
     {
       "label": "Phase 4: User Flows",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L181",
+      "source_location": "L187",
       "id": "ui_ux_skills_skill_phase_4_user_flows",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 4: user flows"
     },
     {
       "label": "Phase 5: Wireframes and Layout",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L195",
+      "source_location": "L201",
       "id": "ui_ux_skills_skill_phase_5_wireframes_and_layout",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 5: wireframes and layout"
     },
     {
       "label": "Phase 6: Visual Design",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L218",
+      "source_location": "L224",
       "id": "ui_ux_skills_skill_phase_6_visual_design",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 6: visual design"
     },
     {
       "label": "Phase 7: Interaction Design",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L240",
+      "source_location": "L246",
       "id": "ui_ux_skills_skill_phase_7_interaction_design",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 7: interaction design"
     },
     {
       "label": "Phase 8: Accessibility and Inclusive Design",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L257",
+      "source_location": "L263",
       "id": "ui_ux_skills_skill_phase_8_accessibility_and_inclusive_design",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 8: accessibility and inclusive design"
     },
     {
       "label": "Phase 9: Content Design and Microcopy",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L278",
+      "source_location": "L284",
       "id": "ui_ux_skills_skill_phase_9_content_design_and_microcopy",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 9: content design and microcopy"
     },
     {
       "label": "Phase 10: Prototype and Handoff",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L300",
+      "source_location": "L306",
       "id": "ui_ux_skills_skill_phase_10_prototype_and_handoff",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 10: prototype and handoff"
     },
     {
       "label": "Phase 11: Measurement and Quality Gates",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L318",
+      "source_location": "L324",
       "id": "ui_ux_skills_skill_phase_11_measurement_and_quality_gates",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 11: measurement and quality gates"
     },
     {
       "label": "Phase 12: Ethics, Privacy, Inclusion, and Localization",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L334",
+      "source_location": "L340",
       "id": "ui_ux_skills_skill_phase_12_ethics_privacy_inclusion_and_localization",
-      "community": 11,
+      "community": 1,
       "norm_label": "phase 12: ethics, privacy, inclusion, and localization"
     },
     {
       "label": "Design Specialties Covered",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L348",
+      "source_location": "L354",
       "id": "ui_ux_skills_skill_design_specialties_covered",
       "community": 17,
       "norm_label": "design specialties covered"
@@ -484,7 +916,7 @@
       "label": "Product UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L350",
+      "source_location": "L356",
       "id": "ui_ux_skills_skill_product_ux",
       "community": 17,
       "norm_label": "product ux"
@@ -493,7 +925,7 @@
       "label": "SaaS and Dashboard UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L362",
+      "source_location": "L368",
       "id": "ui_ux_skills_skill_saas_and_dashboard_ux",
       "community": 17,
       "norm_label": "saas and dashboard ux"
@@ -502,7 +934,7 @@
       "label": "Landing Page and Conversion UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L376",
+      "source_location": "L382",
       "id": "ui_ux_skills_skill_landing_page_and_conversion_ux",
       "community": 17,
       "norm_label": "landing page and conversion ux"
@@ -511,7 +943,7 @@
       "label": "Ecommerce UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L390",
+      "source_location": "L396",
       "id": "ui_ux_skills_skill_ecommerce_ux",
       "community": 17,
       "norm_label": "ecommerce ux"
@@ -520,7 +952,7 @@
       "label": "Forms UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L400",
+      "source_location": "L406",
       "id": "ui_ux_skills_skill_forms_ux",
       "community": 17,
       "norm_label": "forms ux"
@@ -529,7 +961,7 @@
       "label": "Mobile and Platform-Specific UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L413",
+      "source_location": "L419",
       "id": "ui_ux_skills_skill_mobile_and_platform_specific_ux",
       "community": 17,
       "norm_label": "mobile and platform-specific ux"
@@ -538,7 +970,7 @@
       "label": "Design Systems",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L427",
+      "source_location": "L433",
       "id": "ui_ux_skills_skill_design_systems",
       "community": 17,
       "norm_label": "design systems"
@@ -547,7 +979,7 @@
       "label": "Top-Brand Frontend Method",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L440",
+      "source_location": "L446",
       "id": "ui_ux_skills_skill_top_brand_frontend_method",
       "community": 17,
       "norm_label": "top-brand frontend method"
@@ -556,7 +988,7 @@
       "label": "Frontend Implementation UX",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L472",
+      "source_location": "L478",
       "id": "ui_ux_skills_skill_frontend_implementation_ux",
       "community": 17,
       "norm_label": "frontend implementation ux"
@@ -565,82 +997,280 @@
       "label": "UI/UX Audit Framework",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L490",
+      "source_location": "L496",
       "id": "ui_ux_skills_skill_ui_ux_audit_framework",
-      "community": 7,
+      "community": 1,
       "norm_label": "ui/ux audit framework"
     },
     {
       "label": "Screen State Checklist",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L521",
+      "source_location": "L527",
       "id": "ui_ux_skills_skill_screen_state_checklist",
-      "community": 7,
+      "community": 1,
       "norm_label": "screen state checklist"
     },
     {
       "label": "Responsive Breakpoints Guidance",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L542",
+      "source_location": "L548",
       "id": "ui_ux_skills_skill_responsive_breakpoints_guidance",
-      "community": 7,
+      "community": 1,
       "norm_label": "responsive breakpoints guidance"
     },
     {
       "label": "Design Token Starter Set",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L561",
+      "source_location": "L567",
       "id": "ui_ux_skills_skill_design_token_starter_set",
-      "community": 7,
+      "community": 1,
       "norm_label": "design token starter set"
     },
     {
       "label": "Handoff Output Template",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L595",
+      "source_location": "L601",
       "id": "ui_ux_skills_skill_handoff_output_template",
-      "community": 7,
+      "community": 1,
       "norm_label": "handoff output template"
     },
     {
       "label": "Quality Bar",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L618",
+      "source_location": "L624",
       "id": "ui_ux_skills_skill_quality_bar",
-      "community": 7,
+      "community": 1,
       "norm_label": "quality bar"
     },
     {
       "label": "Common Pitfalls",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L634",
+      "source_location": "L640",
       "id": "ui_ux_skills_skill_common_pitfalls",
-      "community": 7,
+      "community": 1,
       "norm_label": "common pitfalls"
     },
     {
       "label": "Verification Checklist",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L652",
+      "source_location": "L658",
       "id": "ui_ux_skills_skill_verification_checklist",
-      "community": 7,
+      "community": 1,
       "norm_label": "verification checklist"
     },
     {
       "label": "Supporting Files",
       "file_type": "document",
       "source_file": "SKILL.md",
-      "source_location": "L679",
+      "source_location": "L685",
       "id": "ui_ux_skills_skill_supporting_files",
-      "community": 7,
+      "community": 1,
       "norm_label": "supporting files"
+    },
+    {
+      "label": "AGENTS.append.md",
+      "file_type": "document",
+      "source_file": "agent-templates/antigravity/AGENTS.append.md",
+      "source_location": "L1",
+      "id": "agent_templates_antigravity_agents_append_md",
+      "community": 30,
+      "norm_label": "agents.append.md"
+    },
+    {
+      "label": "UI/UX Master opt-in trigger",
+      "file_type": "document",
+      "source_file": "agent-templates/antigravity/AGENTS.append.md",
+      "source_location": "L2",
+      "id": "antigravity_agents_append_ui_ux_master_opt_in_trigger",
+      "community": 30,
+      "norm_label": "ui/ux master opt-in trigger"
+    },
+    {
+      "label": "ui-ux-master.md",
+      "file_type": "document",
+      "source_file": "agent-templates/claude/commands/ui-ux-master.md",
+      "source_location": "L1",
+      "id": "agent_templates_claude_commands_ui_ux_master_md",
+      "community": 36,
+      "norm_label": "ui-ux-master.md"
+    },
+    {
+      "label": "AGENTS.append.md",
+      "file_type": "document",
+      "source_file": "agent-templates/codex/AGENTS.append.md",
+      "source_location": "L1",
+      "id": "agent_templates_codex_agents_append_md",
+      "community": 31,
+      "norm_label": "agents.append.md"
+    },
+    {
+      "label": "UI/UX Master opt-in trigger",
+      "file_type": "document",
+      "source_file": "agent-templates/codex/AGENTS.append.md",
+      "source_location": "L2",
+      "id": "codex_agents_append_ui_ux_master_opt_in_trigger",
+      "community": 31,
+      "norm_label": "ui/ux master opt-in trigger"
+    },
+    {
+      "label": "GEMINI.append.md",
+      "file_type": "document",
+      "source_file": "agent-templates/gemini/GEMINI.append.md",
+      "source_location": "L1",
+      "id": "agent_templates_gemini_gemini_append_md",
+      "community": 32,
+      "norm_label": "gemini.append.md"
+    },
+    {
+      "label": "UI/UX Master opt-in trigger",
+      "file_type": "document",
+      "source_file": "agent-templates/gemini/GEMINI.append.md",
+      "source_location": "L2",
+      "id": "gemini_gemini_append_ui_ux_master_opt_in_trigger",
+      "community": 32,
+      "norm_label": "ui/ux master opt-in trigger"
+    },
+    {
+      "label": "ui-ux-master-trigger.md",
+      "file_type": "document",
+      "source_file": "agent-templates/universal/ui-ux-master-trigger.md",
+      "source_location": "L1",
+      "id": "agent_templates_universal_ui_ux_master_trigger_md",
+      "community": 33,
+      "norm_label": "ui-ux-master-trigger.md"
+    },
+    {
+      "label": "/ui-ux-master Trigger",
+      "file_type": "document",
+      "source_file": "agent-templates/universal/ui-ux-master-trigger.md",
+      "source_location": "L1",
+      "id": "universal_ui_ux_master_trigger_ui_ux_master_trigger",
+      "community": 33,
+      "norm_label": "/ui-ux-master trigger"
+    },
+    {
+      "label": "ui-ux-master.md",
+      "file_type": "document",
+      "source_file": "agent-templates/windsurf/rules/ui-ux-master.md",
+      "source_location": "L1",
+      "id": "agent_templates_windsurf_rules_ui_ux_master_md",
+      "community": 34,
+      "norm_label": "ui-ux-master.md"
+    },
+    {
+      "label": "UI/UX Master Rule",
+      "file_type": "document",
+      "source_file": "agent-templates/windsurf/rules/ui-ux-master.md",
+      "source_location": "L1",
+      "id": "rules_ui_ux_master_ui_ux_master_rule",
+      "community": 34,
+      "norm_label": "ui/ux master rule"
+    },
+    {
+      "label": "slash-command-compatibility.md",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L1",
+      "id": "docs_slash_command_compatibility_md",
+      "community": 18,
+      "norm_label": "slash-command-compatibility.md"
+    },
+    {
+      "label": "Slash Command Compatibility",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L1",
+      "id": "docs_slash_command_compatibility_slash_command_compatibility",
+      "community": 18,
+      "norm_label": "slash command compatibility"
+    },
+    {
+      "label": "What `/ui-ux-master` Does",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L5",
+      "id": "docs_slash_command_compatibility_what_ui_ux_master_does",
+      "community": 18,
+      "norm_label": "what `/ui-ux-master` does"
+    },
+    {
+      "label": "Native Slash Commands vs Text Triggers",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L11",
+      "id": "docs_slash_command_compatibility_native_slash_commands_vs_text_triggers",
+      "community": 18,
+      "norm_label": "native slash commands vs text triggers"
+    },
+    {
+      "label": "Supported Agents",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L21",
+      "id": "docs_slash_command_compatibility_supported_agents",
+      "community": 18,
+      "norm_label": "supported agents"
+    },
+    {
+      "label": "Project-local Install",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L33",
+      "id": "docs_slash_command_compatibility_project_local_install",
+      "community": 18,
+      "norm_label": "project-local install"
+    },
+    {
+      "label": "code:bash (npx ui-ux-master install --project)",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L37",
+      "id": "docs_slash_command_compatibility_codeblock_1",
+      "community": 18,
+      "norm_label": "code:bash (npx ui-ux-master install --project)"
+    },
+    {
+      "label": "Global Install",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L41",
+      "id": "docs_slash_command_compatibility_global_install",
+      "community": 18,
+      "norm_label": "global install"
+    },
+    {
+      "label": "code:bash (npm install -g ui-ux-master)",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L45",
+      "id": "docs_slash_command_compatibility_codeblock_2",
+      "community": 18,
+      "norm_label": "code:bash (npm install -g ui-ux-master)"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L50",
+      "id": "docs_slash_command_compatibility_troubleshooting",
+      "community": 18,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Security and Consent",
+      "file_type": "document",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L56",
+      "id": "docs_slash_command_compatibility_security_and_consent",
+      "community": 18,
+      "norm_label": "security and consent"
     },
     {
       "label": "accessibility-advanced-patterns.md",
@@ -648,7 +1278,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L1",
       "id": "references_accessibility_advanced_patterns_md",
-      "community": 21,
+      "community": 23,
       "norm_label": "accessibility-advanced-patterns.md"
     },
     {
@@ -657,7 +1287,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L1",
       "id": "references_accessibility_advanced_patterns_advanced_accessibility_patterns",
-      "community": 21,
+      "community": 23,
       "norm_label": "advanced accessibility patterns"
     },
     {
@@ -666,7 +1296,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L5",
       "id": "references_accessibility_advanced_patterns_core_rule",
-      "community": 21,
+      "community": 23,
       "norm_label": "core rule"
     },
     {
@@ -675,7 +1305,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L9",
       "id": "references_accessibility_advanced_patterns_complex_widget_checklist",
-      "community": 21,
+      "community": 23,
       "norm_label": "complex widget checklist"
     },
     {
@@ -684,7 +1314,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L21",
       "id": "references_accessibility_advanced_patterns_wcag_2_2_criteria_to_remember",
-      "community": 21,
+      "community": 23,
       "norm_label": "wcag 2.2 criteria to remember"
     },
     {
@@ -693,7 +1323,7 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L30",
       "id": "references_accessibility_advanced_patterns_testing_matrix",
-      "community": 21,
+      "community": 23,
       "norm_label": "testing matrix"
     },
     {
@@ -702,8 +1332,71 @@
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L41",
       "id": "references_accessibility_advanced_patterns_accessible_handoff",
-      "community": 21,
+      "community": 23,
       "norm_label": "accessible handoff"
+    },
+    {
+      "label": "competitive-landscape.md",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L1",
+      "id": "references_competitive_landscape_md",
+      "community": 24,
+      "norm_label": "competitive-landscape.md"
+    },
+    {
+      "label": "Competitive Landscape and Differentiation",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L1",
+      "id": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "community": 24,
+      "norm_label": "competitive landscape and differentiation"
+    },
+    {
+      "label": "What Existing Tools Do Well",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L5",
+      "id": "references_competitive_landscape_what_existing_tools_do_well",
+      "community": 24,
+      "norm_label": "what existing tools do well"
+    },
+    {
+      "label": "Where Narrow Skills Often Outperform Generic UI Prompts",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L14",
+      "id": "references_competitive_landscape_where_narrow_skills_often_outperform_generic_ui_prompts",
+      "community": 24,
+      "norm_label": "where narrow skills often outperform generic ui prompts"
+    },
+    {
+      "label": "Gaps UI/UX Master Must Beat",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L22",
+      "id": "references_competitive_landscape_gaps_ui_ux_master_must_beat",
+      "community": 24,
+      "norm_label": "gaps ui/ux master must beat"
+    },
+    {
+      "label": "Remaining Honest Limitations",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L34",
+      "id": "references_competitive_landscape_remaining_honest_limitations",
+      "community": 24,
+      "norm_label": "remaining honest limitations"
+    },
+    {
+      "label": "Strategy to Stay Ahead",
+      "file_type": "document",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L41",
+      "id": "references_competitive_landscape_strategy_to_stay_ahead",
+      "community": 24,
+      "norm_label": "strategy to stay ahead"
     },
     {
       "label": "content-design-and-i18n.md",
@@ -711,7 +1404,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L1",
       "id": "references_content_design_and_i18n_md",
-      "community": 19,
+      "community": 21,
       "norm_label": "content-design-and-i18n.md"
     },
     {
@@ -720,7 +1413,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L1",
       "id": "references_content_design_and_i18n_content_design_and_internationalization",
-      "community": 19,
+      "community": 21,
       "norm_label": "content design and internationalization"
     },
     {
@@ -729,7 +1422,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L5",
       "id": "references_content_design_and_i18n_content_design_principles",
-      "community": 19,
+      "community": 21,
       "norm_label": "content design principles"
     },
     {
@@ -738,7 +1431,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L16",
       "id": "references_content_design_and_i18n_voice_and_tone",
-      "community": 19,
+      "community": 21,
       "norm_label": "voice and tone"
     },
     {
@@ -747,7 +1440,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L25",
       "id": "references_content_design_and_i18n_microcopy_patterns",
-      "community": 19,
+      "community": 21,
       "norm_label": "microcopy patterns"
     },
     {
@@ -756,7 +1449,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L34",
       "id": "references_content_design_and_i18n_inclusive_language",
-      "community": 19,
+      "community": 21,
       "norm_label": "inclusive language"
     },
     {
@@ -765,7 +1458,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L38",
       "id": "references_content_design_and_i18n_internationalization_checklist",
-      "community": 19,
+      "community": 21,
       "norm_label": "internationalization checklist"
     },
     {
@@ -774,7 +1467,7 @@
       "source_file": "references/content-design-and-i18n.md",
       "source_location": "L51",
       "id": "references_content_design_and_i18n_content_handoff",
-      "community": 19,
+      "community": 21,
       "norm_label": "content handoff"
     },
     {
@@ -783,7 +1476,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L1",
       "id": "references_data_visualization_dashboard_ux_md",
-      "community": 22,
+      "community": 25,
       "norm_label": "data-visualization-dashboard-ux.md"
     },
     {
@@ -792,7 +1485,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L1",
       "id": "references_data_visualization_dashboard_ux_data_visualization_and_dashboard_ux",
-      "community": 22,
+      "community": 25,
       "norm_label": "data visualization and dashboard ux"
     },
     {
@@ -801,7 +1494,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L5",
       "id": "references_data_visualization_dashboard_ux_dashboard_principles",
-      "community": 22,
+      "community": 25,
       "norm_label": "dashboard principles"
     },
     {
@@ -810,7 +1503,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L14",
       "id": "references_data_visualization_dashboard_ux_chart_selection",
-      "community": 22,
+      "community": 25,
       "norm_label": "chart selection"
     },
     {
@@ -819,7 +1512,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L25",
       "id": "references_data_visualization_dashboard_ux_chart_quality_checklist",
-      "community": 22,
+      "community": 25,
       "norm_label": "chart quality checklist"
     },
     {
@@ -828,7 +1521,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L37",
       "id": "references_data_visualization_dashboard_ux_tables_and_data_grids",
-      "community": 22,
+      "community": 25,
       "norm_label": "tables and data grids"
     },
     {
@@ -837,7 +1530,7 @@
       "source_file": "references/data-visualization-dashboard-ux.md",
       "source_location": "L44",
       "id": "references_data_visualization_dashboard_ux_alerting",
-      "community": 22,
+      "community": 25,
       "norm_label": "alerting"
     },
     {
@@ -846,7 +1539,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L1",
       "id": "references_design_system_playbook_md",
-      "community": 12,
+      "community": 13,
       "norm_label": "design-system-playbook.md"
     },
     {
@@ -855,7 +1548,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L1",
       "id": "references_design_system_playbook_design_system_playbook",
-      "community": 12,
+      "community": 13,
       "norm_label": "design system playbook"
     },
     {
@@ -864,7 +1557,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L5",
       "id": "references_design_system_playbook_purpose",
-      "community": 12,
+      "community": 13,
       "norm_label": "purpose"
     },
     {
@@ -873,7 +1566,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L9",
       "id": "references_design_system_playbook_foundations",
-      "community": 12,
+      "community": 13,
       "norm_label": "foundations"
     },
     {
@@ -882,7 +1575,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L11",
       "id": "references_design_system_playbook_color",
-      "community": 12,
+      "community": 13,
       "norm_label": "color"
     },
     {
@@ -891,7 +1584,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L24",
       "id": "references_design_system_playbook_typography",
-      "community": 12,
+      "community": 13,
       "norm_label": "typography"
     },
     {
@@ -900,7 +1593,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L35",
       "id": "references_design_system_playbook_spacing",
-      "community": 12,
+      "community": 13,
       "norm_label": "spacing"
     },
     {
@@ -909,7 +1602,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L43",
       "id": "references_design_system_playbook_shape_and_elevation",
-      "community": 12,
+      "community": 13,
       "norm_label": "shape and elevation"
     },
     {
@@ -918,7 +1611,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L55",
       "id": "references_design_system_playbook_motion",
-      "community": 12,
+      "community": 13,
       "norm_label": "motion"
     },
     {
@@ -927,7 +1620,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L67",
       "id": "references_design_system_playbook_component_specification_requirements",
-      "community": 12,
+      "community": 13,
       "norm_label": "component specification requirements"
     },
     {
@@ -936,7 +1629,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L84",
       "id": "references_design_system_playbook_minimum_component_set",
-      "community": 12,
+      "community": 13,
       "norm_label": "minimum component set"
     },
     {
@@ -945,7 +1638,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L116",
       "id": "references_design_system_playbook_governance",
-      "community": 12,
+      "community": 13,
       "norm_label": "governance"
     },
     {
@@ -954,7 +1647,7 @@
       "source_file": "references/design-system-playbook.md",
       "source_location": "L124",
       "id": "references_design_system_playbook_design_system_audit_questions",
-      "community": 12,
+      "community": 13,
       "norm_label": "design system audit questions"
     },
     {
@@ -963,7 +1656,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L1",
       "id": "references_ethical_inclusive_design_md",
-      "community": 23,
+      "community": 26,
       "norm_label": "ethical-inclusive-design.md"
     },
     {
@@ -972,7 +1665,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L1",
       "id": "references_ethical_inclusive_design_ethical_privacy_and_inclusive_design",
-      "community": 23,
+      "community": 26,
       "norm_label": "ethical, privacy, and inclusive design"
     },
     {
@@ -981,7 +1674,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L5",
       "id": "references_ethical_inclusive_design_dark_pattern_checks",
-      "community": 23,
+      "community": 26,
       "norm_label": "dark pattern checks"
     },
     {
@@ -990,7 +1683,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L19",
       "id": "references_ethical_inclusive_design_privacy_ux",
-      "community": 23,
+      "community": 26,
       "norm_label": "privacy ux"
     },
     {
@@ -999,7 +1692,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L28",
       "id": "references_ethical_inclusive_design_inclusive_design",
-      "community": 23,
+      "community": 26,
       "norm_label": "inclusive design"
     },
     {
@@ -1008,7 +1701,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L36",
       "id": "references_ethical_inclusive_design_ai_interface_ethics",
-      "community": 23,
+      "community": 26,
       "norm_label": "ai interface ethics"
     },
     {
@@ -1017,7 +1710,7 @@
       "source_file": "references/ethical-inclusive-design.md",
       "source_location": "L44",
       "id": "references_ethical_inclusive_design_high_risk_domains",
-      "community": 23,
+      "community": 26,
       "norm_label": "high-risk domains"
     },
     {
@@ -1026,7 +1719,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L1",
       "id": "references_platform_guidelines_md",
-      "community": 18,
+      "community": 19,
       "norm_label": "platform-guidelines.md"
     },
     {
@@ -1035,7 +1728,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L1",
       "id": "references_platform_guidelines_platform_guidelines_for_ui_ux_agents",
-      "community": 18,
+      "community": 19,
       "norm_label": "platform guidelines for ui/ux agents"
     },
     {
@@ -1044,7 +1737,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L5",
       "id": "references_platform_guidelines_authoritative_sources_to_check",
-      "community": 18,
+      "community": 19,
       "norm_label": "authoritative sources to check"
     },
     {
@@ -1053,7 +1746,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L13",
       "id": "references_platform_guidelines_web_app",
-      "community": 18,
+      "community": 19,
       "norm_label": "web app"
     },
     {
@@ -1062,7 +1755,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L21",
       "id": "references_platform_guidelines_ios_apple_platforms",
-      "community": 18,
+      "community": 19,
       "norm_label": "ios / apple platforms"
     },
     {
@@ -1071,7 +1764,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L29",
       "id": "references_platform_guidelines_android_material",
-      "community": 18,
+      "community": 19,
       "norm_label": "android / material"
     },
     {
@@ -1080,7 +1773,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L35",
       "id": "references_platform_guidelines_windows_desktop",
-      "community": 18,
+      "community": 19,
       "norm_label": "windows / desktop"
     },
     {
@@ -1089,7 +1782,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L41",
       "id": "references_platform_guidelines_kiosk_touchscreen",
-      "community": 18,
+      "community": 19,
       "norm_label": "kiosk / touchscreen"
     },
     {
@@ -1098,7 +1791,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L46",
       "id": "references_platform_guidelines_email_ui",
-      "community": 18,
+      "community": 19,
       "norm_label": "email ui"
     },
     {
@@ -1107,7 +1800,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L52",
       "id": "references_platform_guidelines_tv_remote",
-      "community": 18,
+      "community": 19,
       "norm_label": "tv / remote"
     },
     {
@@ -1116,7 +1809,7 @@
       "source_file": "references/platform-guidelines.md",
       "source_location": "L57",
       "id": "references_platform_guidelines_cross_platform_rule",
-      "community": 18,
+      "community": 19,
       "norm_label": "cross-platform rule"
     },
     {
@@ -1125,7 +1818,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L1",
       "id": "references_service_design_journey_mapping_md",
-      "community": 25,
+      "community": 28,
       "norm_label": "service-design-journey-mapping.md"
     },
     {
@@ -1134,7 +1827,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L1",
       "id": "references_service_design_journey_mapping_service_design_and_journey_mapping",
-      "community": 25,
+      "community": 28,
       "norm_label": "service design and journey mapping"
     },
     {
@@ -1143,7 +1836,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L5",
       "id": "references_service_design_journey_mapping_journey_map_elements",
-      "community": 25,
+      "community": 28,
       "norm_label": "journey map elements"
     },
     {
@@ -1152,7 +1845,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L18",
       "id": "references_service_design_journey_mapping_service_blueprint_elements",
-      "community": 25,
+      "community": 28,
       "norm_label": "service blueprint elements"
     },
     {
@@ -1161,7 +1854,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L29",
       "id": "references_service_design_journey_mapping_omnichannel_checks",
-      "community": 25,
+      "community": 28,
       "norm_label": "omnichannel checks"
     },
     {
@@ -1170,7 +1863,7 @@
       "source_file": "references/service-design-journey-mapping.md",
       "source_location": "L37",
       "id": "references_service_design_journey_mapping_when_to_use",
-      "community": 25,
+      "community": 28,
       "norm_label": "when to use"
     },
     {
@@ -1179,7 +1872,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L1",
       "id": "references_top_100_brand_website_analysis_md",
-      "community": 2,
+      "community": 4,
       "norm_label": "top-100-brand-website-analysis.md"
     },
     {
@@ -1188,7 +1881,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L1",
       "id": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
-      "community": 2,
+      "community": 4,
       "norm_label": "top 100 global brand website analysis"
     },
     {
@@ -1197,7 +1890,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L8",
       "id": "references_top_100_brand_website_analysis_methodology_and_limitations",
-      "community": 2,
+      "community": 4,
       "norm_label": "methodology and limitations"
     },
     {
@@ -1206,7 +1899,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L12",
       "id": "references_top_100_brand_website_analysis_cross_brand_findings",
-      "community": 2,
+      "community": 4,
       "norm_label": "cross-brand findings"
     },
     {
@@ -1215,7 +1908,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L14",
       "id": "references_top_100_brand_website_analysis_layout",
-      "community": 2,
+      "community": 4,
       "norm_label": "layout"
     },
     {
@@ -1224,7 +1917,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L25",
       "id": "references_top_100_brand_website_analysis_usability",
-      "community": 2,
+      "community": 4,
       "norm_label": "usability"
     },
     {
@@ -1233,7 +1926,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L35",
       "id": "references_top_100_brand_website_analysis_branding",
-      "community": 2,
+      "community": 4,
       "norm_label": "branding"
     },
     {
@@ -1242,7 +1935,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L39",
       "id": "references_top_100_brand_website_analysis_color_scheme",
-      "community": 2,
+      "community": 4,
       "norm_label": "color scheme"
     },
     {
@@ -1251,7 +1944,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L50",
       "id": "references_top_100_brand_website_analysis_ux_structure",
-      "community": 2,
+      "community": 4,
       "norm_label": "ux structure"
     },
     {
@@ -1260,7 +1953,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L59",
       "id": "references_top_100_brand_website_analysis_accessibility",
-      "community": 2,
+      "community": 4,
       "norm_label": "accessibility"
     },
     {
@@ -1269,7 +1962,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L80",
       "id": "references_top_100_brand_website_analysis_brand_by_brand_analysis_table",
-      "community": 2,
+      "community": 4,
       "norm_label": "brand-by-brand analysis table"
     },
     {
@@ -1278,7 +1971,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L185",
       "id": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
-      "community": 2,
+      "community": 4,
       "norm_label": "reusable top-brand design methods"
     },
     {
@@ -1287,7 +1980,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L187",
       "id": "references_top_100_brand_website_analysis_1_product_cinema_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "1. product cinema method"
     },
     {
@@ -1296,7 +1989,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L198",
       "id": "references_top_100_brand_website_analysis_2_utility_command_center_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "2. utility command center method"
     },
     {
@@ -1305,7 +1998,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L209",
       "id": "references_top_100_brand_website_analysis_3_editorial_brand_world_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "3. editorial brand world method"
     },
     {
@@ -1314,7 +2007,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L220",
       "id": "references_top_100_brand_website_analysis_4_enterprise_trust_hub_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "4. enterprise trust hub method"
     },
     {
@@ -1323,7 +2016,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L231",
       "id": "references_top_100_brand_website_analysis_5_card_based_discovery_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "5. card-based discovery method"
     },
     {
@@ -1332,7 +2025,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L242",
       "id": "references_top_100_brand_website_analysis_6_conversion_simplicity_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "6. conversion simplicity method"
     },
     {
@@ -1341,7 +2034,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L253",
       "id": "references_top_100_brand_website_analysis_7_ecosystem_bundling_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "7. ecosystem bundling method"
     },
     {
@@ -1350,7 +2043,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L263",
       "id": "references_top_100_brand_website_analysis_8_premium_restraint_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "8. premium restraint method"
     },
     {
@@ -1359,7 +2052,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L273",
       "id": "references_top_100_brand_website_analysis_9_playful_familiarity_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "9. playful familiarity method"
     },
     {
@@ -1368,7 +2061,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L283",
       "id": "references_top_100_brand_website_analysis_10_technical_authority_method",
-      "community": 2,
+      "community": 4,
       "norm_label": "10. technical authority method"
     },
     {
@@ -1377,7 +2070,7 @@
       "source_file": "references/top-100-brand-website-analysis.md",
       "source_location": "L293",
       "id": "references_top_100_brand_website_analysis_agent_usage_rules",
-      "community": 2,
+      "community": 4,
       "norm_label": "agent usage rules"
     },
     {
@@ -1386,7 +2079,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L1",
       "id": "references_ui_ux_complete_checklist_md",
-      "community": 3,
+      "community": 5,
       "norm_label": "ui-ux-complete-checklist.md"
     },
     {
@@ -1395,7 +2088,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L1",
       "id": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
-      "community": 3,
+      "community": 5,
       "norm_label": "ui/ux complete checklist"
     },
     {
@@ -1404,7 +2097,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L5",
       "id": "references_ui_ux_complete_checklist_1_product_fit",
-      "community": 3,
+      "community": 5,
       "norm_label": "1. product fit"
     },
     {
@@ -1413,7 +2106,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L16",
       "id": "references_ui_ux_complete_checklist_2_information_architecture",
-      "community": 3,
+      "community": 5,
       "norm_label": "2. information architecture"
     },
     {
@@ -1422,7 +2115,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L27",
       "id": "references_ui_ux_complete_checklist_3_user_flows",
-      "community": 3,
+      "community": 5,
       "norm_label": "3. user flows"
     },
     {
@@ -1431,7 +2124,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L39",
       "id": "references_ui_ux_complete_checklist_4_layout_and_hierarchy",
-      "community": 3,
+      "community": 5,
       "norm_label": "4. layout and hierarchy"
     },
     {
@@ -1440,7 +2133,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L51",
       "id": "references_ui_ux_complete_checklist_5_visual_design",
-      "community": 3,
+      "community": 5,
       "norm_label": "5. visual design"
     },
     {
@@ -1449,7 +2142,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L63",
       "id": "references_ui_ux_complete_checklist_6_components",
-      "community": 3,
+      "community": 5,
       "norm_label": "6. components"
     },
     {
@@ -1458,7 +2151,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L75",
       "id": "references_ui_ux_complete_checklist_7_state_coverage",
-      "community": 3,
+      "community": 5,
       "norm_label": "7. state coverage"
     },
     {
@@ -1467,7 +2160,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L91",
       "id": "references_ui_ux_complete_checklist_8_forms",
-      "community": 3,
+      "community": 5,
       "norm_label": "8. forms"
     },
     {
@@ -1476,7 +2169,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L104",
       "id": "references_ui_ux_complete_checklist_9_content_and_microcopy",
-      "community": 3,
+      "community": 5,
       "norm_label": "9. content and microcopy"
     },
     {
@@ -1485,7 +2178,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L116",
       "id": "references_ui_ux_complete_checklist_10_accessibility",
-      "community": 3,
+      "community": 5,
       "norm_label": "10. accessibility"
     },
     {
@@ -1494,7 +2187,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L131",
       "id": "references_ui_ux_complete_checklist_11_responsive_design",
-      "community": 3,
+      "community": 5,
       "norm_label": "11. responsive design"
     },
     {
@@ -1503,7 +2196,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L143",
       "id": "references_ui_ux_complete_checklist_12_trust_safety_and_ethics",
-      "community": 3,
+      "community": 5,
       "norm_label": "12. trust, safety, and ethics"
     },
     {
@@ -1512,7 +2205,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L153",
       "id": "references_ui_ux_complete_checklist_13_performance_perception",
-      "community": 3,
+      "community": 5,
       "norm_label": "13. performance perception"
     },
     {
@@ -1521,7 +2214,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L162",
       "id": "references_ui_ux_complete_checklist_14_handoff",
-      "community": 3,
+      "community": 5,
       "norm_label": "14. handoff"
     },
     {
@@ -1530,7 +2223,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L174",
       "id": "references_ui_ux_complete_checklist_advanced_one_stop_coverage_additions",
-      "community": 3,
+      "community": 5,
       "norm_label": "advanced one-stop coverage additions"
     },
     {
@@ -1539,7 +2232,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L176",
       "id": "references_ui_ux_complete_checklist_research_evidence",
-      "community": 3,
+      "community": 5,
       "norm_label": "research evidence"
     },
     {
@@ -1548,7 +2241,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L183",
       "id": "references_ui_ux_complete_checklist_platform_native_conventions",
-      "community": 3,
+      "community": 5,
       "norm_label": "platform-native conventions"
     },
     {
@@ -1557,7 +2250,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L189",
       "id": "references_ui_ux_complete_checklist_internationalization_and_content_resilience",
-      "community": 3,
+      "community": 5,
       "norm_label": "internationalization and content resilience"
     },
     {
@@ -1566,7 +2259,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L196",
       "id": "references_ui_ux_complete_checklist_measurement_and_quality_gates",
-      "community": 3,
+      "community": 5,
       "norm_label": "measurement and quality gates"
     },
     {
@@ -1575,7 +2268,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L203",
       "id": "references_ui_ux_complete_checklist_ethics_privacy_and_inclusion",
-      "community": 3,
+      "community": 5,
       "norm_label": "ethics, privacy, and inclusion"
     },
     {
@@ -1584,7 +2277,7 @@
       "source_file": "references/ui-ux-complete-checklist.md",
       "source_location": "L210",
       "id": "references_ui_ux_complete_checklist_data_visualization_and_dashboards",
-      "community": 3,
+      "community": 5,
       "norm_label": "data visualization and dashboards"
     },
     {
@@ -1593,7 +2286,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L1",
       "id": "references_ui_ux_curriculum_and_standards_md",
-      "community": 26,
+      "community": 29,
       "norm_label": "ui-ux-curriculum-and-standards.md"
     },
     {
@@ -1602,7 +2295,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L1",
       "id": "references_ui_ux_curriculum_and_standards_ui_ux_curriculum_and_standards_map",
-      "community": 26,
+      "community": 29,
       "norm_label": "ui/ux curriculum and standards map"
     },
     {
@@ -1611,7 +2304,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L5",
       "id": "references_ui_ux_curriculum_and_standards_beginner_foundations",
-      "community": 26,
+      "community": 29,
       "norm_label": "beginner foundations"
     },
     {
@@ -1620,7 +2313,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L16",
       "id": "references_ui_ux_curriculum_and_standards_intermediate_practice",
-      "community": 26,
+      "community": 29,
       "norm_label": "intermediate practice"
     },
     {
@@ -1629,7 +2322,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L27",
       "id": "references_ui_ux_curriculum_and_standards_advanced_practice",
-      "community": 26,
+      "community": 29,
       "norm_label": "advanced practice"
     },
     {
@@ -1638,7 +2331,7 @@
       "source_file": "references/ui-ux-curriculum-and-standards.md",
       "source_location": "L38",
       "id": "references_ui_ux_curriculum_and_standards_agent_rule",
-      "community": 26,
+      "community": 29,
       "norm_label": "agent rule"
     },
     {
@@ -1647,7 +2340,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L1",
       "id": "references_ui_ux_frontend_implementation_rules_md",
-      "community": 0,
+      "community": 2,
       "norm_label": "ui-ux-frontend-implementation-rules.md"
     },
     {
@@ -1656,7 +2349,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L1",
       "id": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "ui/ux frontend implementation rules"
     },
     {
@@ -1665,7 +2358,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L5",
       "id": "references_ui_ux_frontend_implementation_rules_non_negotiable_rule",
-      "community": 0,
+      "community": 2,
       "norm_label": "non-negotiable rule"
     },
     {
@@ -1674,7 +2367,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L22",
       "id": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
-      "community": 0,
+      "community": 2,
       "norm_label": "required implementation order"
     },
     {
@@ -1683,7 +2376,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L24",
       "id": "references_ui_ux_frontend_implementation_rules_1_inspect_before_building",
-      "community": 0,
+      "community": 2,
       "norm_label": "1. inspect before building"
     },
     {
@@ -1692,7 +2385,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L39",
       "id": "references_ui_ux_frontend_implementation_rules_2_define_the_ux_contract",
-      "community": 0,
+      "community": 2,
       "norm_label": "2. define the ux contract"
     },
     {
@@ -1701,7 +2394,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L56",
       "id": "references_ui_ux_frontend_implementation_rules_3_choose_the_design_method",
-      "community": 0,
+      "community": 2,
       "norm_label": "3. choose the design method"
     },
     {
@@ -1710,7 +2403,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L73",
       "id": "references_ui_ux_frontend_implementation_rules_4_create_or_reuse_tokens",
-      "community": 0,
+      "community": 2,
       "norm_label": "4. create or reuse tokens"
     },
     {
@@ -1719,7 +2412,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L89",
       "id": "references_ui_ux_frontend_implementation_rules_5_build_layout_first",
-      "community": 0,
+      "community": 2,
       "norm_label": "5. build layout first"
     },
     {
@@ -1728,7 +2421,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L110",
       "id": "references_ui_ux_frontend_implementation_rules_6_build_components_with_complete_states",
-      "community": 0,
+      "community": 2,
       "norm_label": "6. build components with complete states"
     },
     {
@@ -1737,7 +2430,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L134",
       "id": "references_ui_ux_frontend_implementation_rules_7_accessibility_is_part_of_the_build",
-      "community": 0,
+      "community": 2,
       "norm_label": "7. accessibility is part of the build"
     },
     {
@@ -1746,7 +2439,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L157",
       "id": "references_ui_ux_frontend_implementation_rules_8_responsive_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "8. responsive rules"
     },
     {
@@ -1755,7 +2448,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L180",
       "id": "references_ui_ux_frontend_implementation_rules_9_forms_and_validation_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "9. forms and validation rules"
     },
     {
@@ -1764,7 +2457,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L202",
       "id": "references_ui_ux_frontend_implementation_rules_10_content_and_microcopy_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "10. content and microcopy rules"
     },
     {
@@ -1773,7 +2466,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L215",
       "id": "references_ui_ux_frontend_implementation_rules_11_branding_and_visual_quality_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "11. branding and visual quality rules"
     },
     {
@@ -1782,7 +2475,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L236",
       "id": "references_ui_ux_frontend_implementation_rules_12_data_and_api_ux_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "12. data and api ux rules"
     },
     {
@@ -1791,7 +2484,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L252",
       "id": "references_ui_ux_frontend_implementation_rules_13_navigation_and_ia_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "13. navigation and ia rules"
     },
     {
@@ -1800,7 +2493,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L265",
       "id": "references_ui_ux_frontend_implementation_rules_14_performance_perception_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "14. performance perception rules"
     },
     {
@@ -1809,7 +2502,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L279",
       "id": "references_ui_ux_frontend_implementation_rules_15_security_trust_and_ethics_rules",
-      "community": 0,
+      "community": 2,
       "norm_label": "15. security, trust, and ethics rules"
     },
     {
@@ -1818,7 +2511,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L300",
       "id": "references_ui_ux_frontend_implementation_rules_16_frontend_qa_checklist",
-      "community": 0,
+      "community": 2,
       "norm_label": "16. frontend qa checklist"
     },
     {
@@ -1827,7 +2520,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L327",
       "id": "references_ui_ux_frontend_implementation_rules_17_implementation_handoff_checklist",
-      "community": 0,
+      "community": 2,
       "norm_label": "17. implementation handoff checklist"
     },
     {
@@ -1836,7 +2529,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L342",
       "id": "references_ui_ux_frontend_implementation_rules_agent_stop_condition",
-      "community": 0,
+      "community": 2,
       "norm_label": "agent stop condition"
     },
     {
@@ -1845,7 +2538,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L346",
       "id": "references_ui_ux_frontend_implementation_rules_advanced_deployment_checks",
-      "community": 0,
+      "community": 2,
       "norm_label": "advanced deployment checks"
     },
     {
@@ -1854,7 +2547,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L348",
       "id": "references_ui_ux_frontend_implementation_rules_platform_specific_implementation",
-      "community": 0,
+      "community": 2,
       "norm_label": "platform-specific implementation"
     },
     {
@@ -1863,7 +2556,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L354",
       "id": "references_ui_ux_frontend_implementation_rules_internationalization_implementation",
-      "community": 0,
+      "community": 2,
       "norm_label": "internationalization implementation"
     },
     {
@@ -1872,7 +2565,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L361",
       "id": "references_ui_ux_frontend_implementation_rules_privacy_and_consent_ui",
-      "community": 0,
+      "community": 2,
       "norm_label": "privacy and consent ui"
     },
     {
@@ -1881,7 +2574,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L367",
       "id": "references_ui_ux_frontend_implementation_rules_advanced_accessibility_widgets",
-      "community": 0,
+      "community": 2,
       "norm_label": "advanced accessibility widgets"
     },
     {
@@ -1890,7 +2583,7 @@
       "source_file": "references/ui-ux-frontend-implementation-rules.md",
       "source_location": "L372",
       "id": "references_ui_ux_frontend_implementation_rules_measurable_frontend_quality_gates",
-      "community": 0,
+      "community": 2,
       "norm_label": "measurable frontend quality gates"
     },
     {
@@ -1899,7 +2592,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L1",
       "id": "references_ui_ux_memory_workflow_md",
-      "community": 13,
+      "community": 14,
       "norm_label": "ui-ux-memory-workflow.md"
     },
     {
@@ -1908,7 +2601,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L1",
       "id": "references_ui_ux_memory_workflow_ui_ux_project_memory_workflow",
-      "community": 13,
+      "community": 14,
       "norm_label": "ui/ux project memory workflow"
     },
     {
@@ -1917,7 +2610,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L5",
       "id": "references_ui_ux_memory_workflow_core_principle",
-      "community": 13,
+      "community": 14,
       "norm_label": "core principle"
     },
     {
@@ -1926,7 +2619,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L15",
       "id": "references_ui_ux_memory_workflow_memory_file_location",
-      "community": 13,
+      "community": 14,
       "norm_label": "memory file location"
     },
     {
@@ -1935,7 +2628,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L30",
       "id": "references_ui_ux_memory_workflow_required_first_step_every_time",
-      "community": 13,
+      "community": 14,
       "norm_label": "required first step every time"
     },
     {
@@ -1944,7 +2637,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L40",
       "id": "references_ui_ux_memory_workflow_existing_product_behavior",
-      "community": 13,
+      "community": 14,
       "norm_label": "existing product behavior"
     },
     {
@@ -1953,7 +2646,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L51",
       "id": "references_ui_ux_memory_workflow_fresh_product_behavior",
-      "community": 13,
+      "community": 14,
       "norm_label": "fresh product behavior"
     },
     {
@@ -1962,7 +2655,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L63",
       "id": "references_ui_ux_memory_workflow_what_to_store_in_ui_ux_memory",
-      "community": 13,
+      "community": 14,
       "norm_label": "what to store in ui/ux memory"
     },
     {
@@ -1971,7 +2664,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L95",
       "id": "references_ui_ux_memory_workflow_how_to_use_memory_during_implementation",
-      "community": 13,
+      "community": 14,
       "norm_label": "how to use memory during implementation"
     },
     {
@@ -1980,7 +2673,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L117",
       "id": "references_ui_ux_memory_workflow_adaptive_decision_rules",
-      "community": 13,
+      "community": 14,
       "norm_label": "adaptive decision rules"
     },
     {
@@ -1989,7 +2682,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L129",
       "id": "references_ui_ux_memory_workflow_existing_branding_inspection_checklist",
-      "community": 13,
+      "community": 14,
       "norm_label": "existing branding inspection checklist"
     },
     {
@@ -1998,7 +2691,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L154",
       "id": "references_ui_ux_memory_workflow_conflict_resolution",
-      "community": 13,
+      "community": 14,
       "norm_label": "conflict resolution"
     },
     {
@@ -2007,7 +2700,7 @@
       "source_file": "references/ui-ux-memory-workflow.md",
       "source_location": "L168",
       "id": "references_ui_ux_memory_workflow_required_final_response_note",
-      "community": 13,
+      "community": 14,
       "norm_label": "required final response note"
     },
     {
@@ -2016,7 +2709,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L1",
       "id": "references_usability_heuristics_md",
-      "community": 20,
+      "community": 22,
       "norm_label": "usability-heuristics.md"
     },
     {
@@ -2025,7 +2718,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L1",
       "id": "references_usability_heuristics_usability_heuristics_and_expert_review",
-      "community": 20,
+      "community": 22,
       "norm_label": "usability heuristics and expert review"
     },
     {
@@ -2034,7 +2727,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L5",
       "id": "references_usability_heuristics_nielsen_s_10_usability_heuristics",
-      "community": 20,
+      "community": 22,
       "norm_label": "nielsen's 10 usability heuristics"
     },
     {
@@ -2043,7 +2736,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L18",
       "id": "references_usability_heuristics_norman_interaction_principles",
-      "community": 20,
+      "community": 22,
       "norm_label": "norman interaction principles"
     },
     {
@@ -2052,7 +2745,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L27",
       "id": "references_usability_heuristics_practical_cognitive_rules",
-      "community": 20,
+      "community": 22,
       "norm_label": "practical cognitive rules"
     },
     {
@@ -2061,7 +2754,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L36",
       "id": "references_usability_heuristics_severity_rating",
-      "community": 20,
+      "community": 22,
       "norm_label": "severity rating"
     },
     {
@@ -2070,7 +2763,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L45",
       "id": "references_usability_heuristics_heuristic_review_output",
-      "community": 20,
+      "community": 22,
       "norm_label": "heuristic review output"
     },
     {
@@ -2079,7 +2772,7 @@
       "source_file": "references/usability-heuristics.md",
       "source_location": "L57",
       "id": "references_usability_heuristics_common_agent_fixes",
-      "community": 20,
+      "community": 22,
       "norm_label": "common agent fixes"
     },
     {
@@ -2088,7 +2781,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L1",
       "id": "references_ux_measurement_quality_gates_md",
-      "community": 24,
+      "community": 27,
       "norm_label": "ux-measurement-quality-gates.md"
     },
     {
@@ -2097,7 +2790,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L1",
       "id": "references_ux_measurement_quality_gates_ux_measurement_and_quality_gates",
-      "community": 24,
+      "community": 27,
       "norm_label": "ux measurement and quality gates"
     },
     {
@@ -2106,7 +2799,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L5",
       "id": "references_ux_measurement_quality_gates_metric_selection",
-      "community": 24,
+      "community": 27,
       "norm_label": "metric selection"
     },
     {
@@ -2115,7 +2808,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L18",
       "id": "references_ux_measurement_quality_gates_common_ux_measures",
-      "community": 24,
+      "community": 27,
       "norm_label": "common ux measures"
     },
     {
@@ -2124,7 +2817,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L30",
       "id": "references_ux_measurement_quality_gates_quality_gate_template",
-      "community": 24,
+      "community": 27,
       "norm_label": "quality gate template"
     },
     {
@@ -2133,7 +2826,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L43",
       "id": "references_ux_measurement_quality_gates_frontend_performance_gates",
-      "community": 24,
+      "community": 27,
       "norm_label": "frontend performance gates"
     },
     {
@@ -2142,7 +2835,7 @@
       "source_file": "references/ux-measurement-quality-gates.md",
       "source_location": "L53",
       "id": "references_ux_measurement_quality_gates_experimentation_guardrails",
-      "community": 24,
+      "community": 27,
       "norm_label": "experimentation guardrails"
     },
     {
@@ -2151,7 +2844,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L1",
       "id": "references_ux_research_methods_md",
-      "community": 6,
+      "community": 7,
       "norm_label": "ux-research-methods.md"
     },
     {
@@ -2160,7 +2853,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L1",
       "id": "references_ux_research_methods_ux_research_methods_for_agents",
-      "community": 6,
+      "community": 7,
       "norm_label": "ux research methods for agents"
     },
     {
@@ -2169,7 +2862,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L5",
       "id": "references_ux_research_methods_source_grounded_baseline",
-      "community": 6,
+      "community": 7,
       "norm_label": "source-grounded baseline"
     },
     {
@@ -2178,7 +2871,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L15",
       "id": "references_ux_research_methods_research_decision_tree",
-      "community": 6,
+      "community": 7,
       "norm_label": "research decision tree"
     },
     {
@@ -2187,7 +2880,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L24",
       "id": "references_ux_research_methods_research_plan_template",
-      "community": 6,
+      "community": 7,
       "norm_label": "research plan template"
     },
     {
@@ -2196,7 +2889,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L36",
       "id": "references_ux_research_methods_core_methods",
-      "community": 6,
+      "community": 7,
       "norm_label": "core methods"
     },
     {
@@ -2205,7 +2898,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L38",
       "id": "references_ux_research_methods_stakeholder_interview",
-      "community": 6,
+      "community": 7,
       "norm_label": "stakeholder interview"
     },
     {
@@ -2214,7 +2907,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L41",
       "id": "references_ux_research_methods_user_interview",
-      "community": 6,
+      "community": 7,
       "norm_label": "user interview"
     },
     {
@@ -2223,7 +2916,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L44",
       "id": "references_ux_research_methods_contextual_inquiry",
-      "community": 6,
+      "community": 7,
       "norm_label": "contextual inquiry"
     },
     {
@@ -2232,7 +2925,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L47",
       "id": "references_ux_research_methods_survey",
-      "community": 6,
+      "community": 7,
       "norm_label": "survey"
     },
     {
@@ -2241,7 +2934,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L50",
       "id": "references_ux_research_methods_diary_study",
-      "community": 6,
+      "community": 7,
       "norm_label": "diary study"
     },
     {
@@ -2250,7 +2943,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L53",
       "id": "references_ux_research_methods_competitive_and_comparative_analysis",
-      "community": 6,
+      "community": 7,
       "norm_label": "competitive and comparative analysis"
     },
     {
@@ -2259,7 +2952,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L56",
       "id": "references_ux_research_methods_analytics_and_support_synthesis",
-      "community": 6,
+      "community": 7,
       "norm_label": "analytics and support synthesis"
     },
     {
@@ -2268,7 +2961,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L59",
       "id": "references_ux_research_methods_task_analysis",
-      "community": 6,
+      "community": 7,
       "norm_label": "task analysis"
     },
     {
@@ -2277,7 +2970,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L62",
       "id": "references_ux_research_methods_card_sorting",
-      "community": 6,
+      "community": 7,
       "norm_label": "card sorting"
     },
     {
@@ -2286,7 +2979,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L65",
       "id": "references_ux_research_methods_tree_testing",
-      "community": 6,
+      "community": 7,
       "norm_label": "tree testing"
     },
     {
@@ -2295,7 +2988,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L68",
       "id": "references_ux_research_methods_first_click_testing",
-      "community": 6,
+      "community": 7,
       "norm_label": "first-click testing"
     },
     {
@@ -2304,7 +2997,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L71",
       "id": "references_ux_research_methods_usability_testing",
-      "community": 6,
+      "community": 7,
       "norm_label": "usability testing"
     },
     {
@@ -2313,7 +3006,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L74",
       "id": "references_ux_research_methods_evidence_confidence_levels",
-      "community": 6,
+      "community": 7,
       "norm_label": "evidence confidence levels"
     },
     {
@@ -2322,7 +3015,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L82",
       "id": "references_ux_research_methods_research_ethics",
-      "community": 6,
+      "community": 7,
       "norm_label": "research ethics"
     },
     {
@@ -2331,7 +3024,7 @@
       "source_file": "references/ux-research-methods.md",
       "source_location": "L91",
       "id": "references_ux_research_methods_deliverables",
-      "community": 6,
+      "community": 7,
       "norm_label": "deliverables"
     },
     {
@@ -2340,7 +3033,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L1",
       "id": "references_wcag_aa_quick_reference_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "wcag-aa-quick-reference.md"
     },
     {
@@ -2349,7 +3042,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L1",
       "id": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
-      "community": 14,
+      "community": 15,
       "norm_label": "wcag 2.2 aa quick reference for agents"
     },
     {
@@ -2358,7 +3051,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L5",
       "id": "references_wcag_aa_quick_reference_core_principles",
-      "community": 14,
+      "community": 15,
       "norm_label": "core principles"
     },
     {
@@ -2367,7 +3060,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L12",
       "id": "references_wcag_aa_quick_reference_contrast",
-      "community": 14,
+      "community": 15,
       "norm_label": "contrast"
     },
     {
@@ -2376,7 +3069,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L19",
       "id": "references_wcag_aa_quick_reference_keyboard",
-      "community": 14,
+      "community": 15,
       "norm_label": "keyboard"
     },
     {
@@ -2385,7 +3078,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L27",
       "id": "references_wcag_aa_quick_reference_semantic_structure",
-      "community": 14,
+      "community": 15,
       "norm_label": "semantic structure"
     },
     {
@@ -2394,7 +3087,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L35",
       "id": "references_wcag_aa_quick_reference_forms",
-      "community": 14,
+      "community": 15,
       "norm_label": "forms"
     },
     {
@@ -2403,7 +3096,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L44",
       "id": "references_wcag_aa_quick_reference_motion_and_timing",
-      "community": 14,
+      "community": 15,
       "norm_label": "motion and timing"
     },
     {
@@ -2412,7 +3105,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L51",
       "id": "references_wcag_aa_quick_reference_images_and_media",
-      "community": 14,
+      "community": 15,
       "norm_label": "images and media"
     },
     {
@@ -2421,7 +3114,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L58",
       "id": "references_wcag_aa_quick_reference_touch_and_pointer",
-      "community": 14,
+      "community": 15,
       "norm_label": "touch and pointer"
     },
     {
@@ -2430,7 +3123,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L64",
       "id": "references_wcag_aa_quick_reference_common_agent_fixes",
-      "community": 14,
+      "community": 15,
       "norm_label": "common agent fixes"
     },
     {
@@ -2439,7 +3132,7 @@
       "source_file": "references/wcag-aa-quick-reference.md",
       "source_location": "L75",
       "id": "references_wcag_aa_quick_reference_accessibility_acceptance_criteria",
-      "community": 14,
+      "community": 15,
       "norm_label": "accessibility acceptance criteria"
     },
     {
@@ -2448,7 +3141,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L1",
       "id": "templates_component_spec_md",
-      "community": 8,
+      "community": 9,
       "norm_label": "component-spec.md"
     },
     {
@@ -2457,7 +3150,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L1",
       "id": "templates_component_spec_component_spec",
-      "community": 8,
+      "community": 9,
       "norm_label": "component spec"
     },
     {
@@ -2466,7 +3159,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L3",
       "id": "templates_component_spec_component_name",
-      "community": 8,
+      "community": 9,
       "norm_label": "component name"
     },
     {
@@ -2475,7 +3168,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L5",
       "id": "templates_component_spec_purpose",
-      "community": 8,
+      "community": 9,
       "norm_label": "purpose"
     },
     {
@@ -2484,7 +3177,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L9",
       "id": "templates_component_spec_platform_and_context",
-      "community": 8,
+      "community": 9,
       "norm_label": "platform and context"
     },
     {
@@ -2493,7 +3186,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L16",
       "id": "templates_component_spec_anatomy",
-      "community": 8,
+      "community": 9,
       "norm_label": "anatomy"
     },
     {
@@ -2502,7 +3195,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L26",
       "id": "templates_component_spec_variants",
-      "community": 8,
+      "community": 9,
       "norm_label": "variants"
     },
     {
@@ -2511,7 +3204,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L35",
       "id": "templates_component_spec_sizes",
-      "community": 8,
+      "community": 9,
       "norm_label": "sizes"
     },
     {
@@ -2520,7 +3213,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L42",
       "id": "templates_component_spec_states",
-      "community": 8,
+      "community": 9,
       "norm_label": "states"
     },
     {
@@ -2529,7 +3222,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L56",
       "id": "templates_component_spec_behavior",
-      "community": 8,
+      "community": 9,
       "norm_label": "behavior"
     },
     {
@@ -2538,7 +3231,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L66",
       "id": "templates_component_spec_accessibility",
-      "community": 8,
+      "community": 9,
       "norm_label": "accessibility"
     },
     {
@@ -2547,7 +3240,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L78",
       "id": "templates_component_spec_content_guidelines",
-      "community": 8,
+      "community": 9,
       "norm_label": "content guidelines"
     },
     {
@@ -2556,7 +3249,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L87",
       "id": "templates_component_spec_responsive_behavior",
-      "community": 8,
+      "community": 9,
       "norm_label": "responsive behavior"
     },
     {
@@ -2565,7 +3258,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L94",
       "id": "templates_component_spec_tokens_used",
-      "community": 8,
+      "community": 9,
       "norm_label": "tokens used"
     },
     {
@@ -2574,7 +3267,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L103",
       "id": "templates_component_spec_implementation_notes",
-      "community": 8,
+      "community": 9,
       "norm_label": "implementation notes"
     },
     {
@@ -2583,7 +3276,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L111",
       "id": "templates_component_spec_acceptance_criteria_and_test_matrix",
-      "community": 8,
+      "community": 9,
       "norm_label": "acceptance criteria and test matrix"
     },
     {
@@ -2592,7 +3285,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L123",
       "id": "templates_component_spec_usage_examples",
-      "community": 8,
+      "community": 9,
       "norm_label": "usage examples"
     },
     {
@@ -2601,7 +3294,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L125",
       "id": "templates_component_spec_good",
-      "community": 8,
+      "community": 9,
       "norm_label": "good"
     },
     {
@@ -2610,7 +3303,7 @@
       "source_file": "templates/component-spec.md",
       "source_location": "L127",
       "id": "templates_component_spec_bad",
-      "community": 8,
+      "community": 9,
       "norm_label": "bad"
     },
     {
@@ -2619,7 +3312,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L1",
       "id": "templates_design_system_spec_md",
-      "community": 4,
+      "community": 6,
       "norm_label": "design-system-spec.md"
     },
     {
@@ -2628,7 +3321,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L1",
       "id": "templates_design_system_spec_design_system_spec",
-      "community": 4,
+      "community": 6,
       "norm_label": "design system spec"
     },
     {
@@ -2637,7 +3330,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L3",
       "id": "templates_design_system_spec_system_overview",
-      "community": 4,
+      "community": 6,
       "norm_label": "system overview"
     },
     {
@@ -2646,7 +3339,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L13",
       "id": "templates_design_system_spec_foundations",
-      "community": 4,
+      "community": 6,
       "norm_label": "foundations"
     },
     {
@@ -2655,7 +3348,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L15",
       "id": "templates_design_system_spec_color_tokens",
-      "community": 4,
+      "community": 6,
       "norm_label": "color tokens"
     },
     {
@@ -2664,7 +3357,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L28",
       "id": "templates_design_system_spec_typography_tokens",
-      "community": 4,
+      "community": 6,
       "norm_label": "typography tokens"
     },
     {
@@ -2673,7 +3366,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L38",
       "id": "templates_design_system_spec_spacing_tokens",
-      "community": 4,
+      "community": 6,
       "norm_label": "spacing tokens"
     },
     {
@@ -2682,7 +3375,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L49",
       "id": "templates_design_system_spec_radius_elevation_motion",
-      "community": 4,
+      "community": 6,
       "norm_label": "radius, elevation, motion"
     },
     {
@@ -2691,7 +3384,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L61",
       "id": "templates_design_system_spec_content_localization_and_data_visualization_tokens",
-      "community": 4,
+      "community": 6,
       "norm_label": "content, localization, and data visualization tokens"
     },
     {
@@ -2700,7 +3393,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L70",
       "id": "templates_design_system_spec_components",
-      "community": 4,
+      "community": 6,
       "norm_label": "components"
     },
     {
@@ -2709,7 +3402,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L74",
       "id": "templates_design_system_spec_button",
-      "community": 4,
+      "community": 6,
       "norm_label": "button"
     },
     {
@@ -2718,7 +3411,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L76",
       "id": "templates_design_system_spec_input",
-      "community": 4,
+      "community": 6,
       "norm_label": "input"
     },
     {
@@ -2727,7 +3420,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L78",
       "id": "templates_design_system_spec_select_combobox",
-      "community": 4,
+      "community": 6,
       "norm_label": "select/combobox"
     },
     {
@@ -2736,7 +3429,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L80",
       "id": "templates_design_system_spec_checkbox_radio_switch",
-      "community": 4,
+      "community": 6,
       "norm_label": "checkbox/radio/switch"
     },
     {
@@ -2745,7 +3438,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L82",
       "id": "templates_design_system_spec_modal_dialog",
-      "community": 4,
+      "community": 6,
       "norm_label": "modal/dialog"
     },
     {
@@ -2754,7 +3447,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L84",
       "id": "templates_design_system_spec_toast_alert",
-      "community": 4,
+      "community": 6,
       "norm_label": "toast/alert"
     },
     {
@@ -2763,7 +3456,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L86",
       "id": "templates_design_system_spec_card",
-      "community": 4,
+      "community": 6,
       "norm_label": "card"
     },
     {
@@ -2772,7 +3465,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L88",
       "id": "templates_design_system_spec_table_data_grid",
-      "community": 4,
+      "community": 6,
       "norm_label": "table/data grid"
     },
     {
@@ -2781,7 +3474,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L90",
       "id": "templates_design_system_spec_navigation",
-      "community": 4,
+      "community": 6,
       "norm_label": "navigation"
     },
     {
@@ -2790,7 +3483,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L92",
       "id": "templates_design_system_spec_empty_state",
-      "community": 4,
+      "community": 6,
       "norm_label": "empty state"
     },
     {
@@ -2799,7 +3492,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L94",
       "id": "templates_design_system_spec_chart_data_visualization",
-      "community": 4,
+      "community": 6,
       "norm_label": "chart/data visualization"
     },
     {
@@ -2808,7 +3501,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L96",
       "id": "templates_design_system_spec_patterns",
-      "community": 4,
+      "community": 6,
       "norm_label": "patterns"
     },
     {
@@ -2817,7 +3510,7 @@
       "source_file": "templates/design-system-spec.md",
       "source_location": "L109",
       "id": "templates_design_system_spec_governance",
-      "community": 4,
+      "community": 6,
       "norm_label": "governance"
     },
     {
@@ -2826,7 +3519,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L1",
       "id": "templates_top_brand_frontend_spec_md",
-      "community": 10,
+      "community": 12,
       "norm_label": "top-brand-frontend-spec.md"
     },
     {
@@ -2835,7 +3528,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L1",
       "id": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
-      "community": 10,
+      "community": 12,
       "norm_label": "top-brand frontend spec template"
     },
     {
@@ -2844,7 +3537,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L5",
       "id": "templates_top_brand_frontend_spec_1_product_context",
-      "community": 10,
+      "community": 12,
       "norm_label": "1. product context"
     },
     {
@@ -2853,7 +3546,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L15",
       "id": "templates_top_brand_frontend_spec_2_brand_inspiration_blend",
-      "community": 10,
+      "community": 12,
       "norm_label": "2. brand-inspiration blend"
     },
     {
@@ -2862,7 +3555,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L31",
       "id": "templates_top_brand_frontend_spec_3_ux_structure",
-      "community": 10,
+      "community": 12,
       "norm_label": "3. ux structure"
     },
     {
@@ -2871,7 +3564,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L44",
       "id": "templates_top_brand_frontend_spec_4_layout_rules",
-      "community": 10,
+      "community": 12,
       "norm_label": "4. layout rules"
     },
     {
@@ -2880,7 +3573,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L54",
       "id": "templates_top_brand_frontend_spec_5_visual_language",
-      "community": 10,
+      "community": 12,
       "norm_label": "5. visual language"
     },
     {
@@ -2889,7 +3582,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L64",
       "id": "templates_top_brand_frontend_spec_6_components",
-      "community": 10,
+      "community": 12,
       "norm_label": "6. components"
     },
     {
@@ -2898,7 +3591,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L76",
       "id": "templates_top_brand_frontend_spec_7_states",
-      "community": 10,
+      "community": 12,
       "norm_label": "7. states"
     },
     {
@@ -2907,7 +3600,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L87",
       "id": "templates_top_brand_frontend_spec_8_accessibility",
-      "community": 10,
+      "community": 12,
       "norm_label": "8. accessibility"
     },
     {
@@ -2916,7 +3609,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L97",
       "id": "templates_top_brand_frontend_spec_9_copy_system",
-      "community": 10,
+      "community": 12,
       "norm_label": "9. copy system"
     },
     {
@@ -2925,7 +3618,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L108",
       "id": "templates_top_brand_frontend_spec_10_implementation_notes",
-      "community": 10,
+      "community": 12,
       "norm_label": "10. implementation notes"
     },
     {
@@ -2934,7 +3627,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L117",
       "id": "templates_top_brand_frontend_spec_11_quality_gates",
-      "community": 10,
+      "community": 12,
       "norm_label": "11. quality gates"
     },
     {
@@ -2943,7 +3636,7 @@
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L126",
       "id": "templates_top_brand_frontend_spec_12_do_not_copy",
-      "community": 10,
+      "community": 12,
       "norm_label": "12. do not copy"
     },
     {
@@ -2952,7 +3645,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L1",
       "id": "templates_ui_ux_audit_report_md",
-      "community": 9,
+      "community": 10,
       "norm_label": "ui-ux-audit-report.md"
     },
     {
@@ -2961,7 +3654,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L1",
       "id": "templates_ui_ux_audit_report_ui_ux_audit_report",
-      "community": 9,
+      "community": 10,
       "norm_label": "ui/ux audit report"
     },
     {
@@ -2970,7 +3663,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L3",
       "id": "templates_ui_ux_audit_report_executive_summary",
-      "community": 9,
+      "community": 10,
       "norm_label": "executive summary"
     },
     {
@@ -2979,7 +3672,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L11",
       "id": "templates_ui_ux_audit_report_scope",
-      "community": 9,
+      "community": 10,
       "norm_label": "scope"
     },
     {
@@ -2988,7 +3681,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L19",
       "id": "templates_ui_ux_audit_report_scorecard",
-      "community": 9,
+      "community": 10,
       "norm_label": "scorecard"
     },
     {
@@ -2997,7 +3690,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L40",
       "id": "templates_ui_ux_audit_report_heuristic_findings",
-      "community": 9,
+      "community": 10,
       "norm_label": "heuristic findings"
     },
     {
@@ -3006,7 +3699,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L46",
       "id": "templates_ui_ux_audit_report_severity_ranked_findings",
-      "community": 9,
+      "community": 10,
       "norm_label": "severity-ranked findings"
     },
     {
@@ -3015,7 +3708,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L48",
       "id": "templates_ui_ux_audit_report_critical",
-      "community": 9,
+      "community": 10,
       "norm_label": "critical"
     },
     {
@@ -3024,7 +3717,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L58",
       "id": "templates_ui_ux_audit_report_high",
-      "community": 9,
+      "community": 10,
       "norm_label": "high"
     },
     {
@@ -3033,7 +3726,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L68",
       "id": "templates_ui_ux_audit_report_medium",
-      "community": 9,
+      "community": 10,
       "norm_label": "medium"
     },
     {
@@ -3042,7 +3735,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L78",
       "id": "templates_ui_ux_audit_report_low",
-      "community": 9,
+      "community": 10,
       "norm_label": "low"
     },
     {
@@ -3051,7 +3744,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L88",
       "id": "templates_ui_ux_audit_report_measured_evidence_and_quality_gates",
-      "community": 9,
+      "community": 10,
       "norm_label": "measured evidence and quality gates"
     },
     {
@@ -3060,7 +3753,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L97",
       "id": "templates_ui_ux_audit_report_quick_wins",
-      "community": 9,
+      "community": 10,
       "norm_label": "quick wins"
     },
     {
@@ -3069,7 +3762,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L103",
       "id": "templates_ui_ux_audit_report_recommended_revised_structure",
-      "community": 9,
+      "community": 10,
       "norm_label": "recommended revised structure"
     },
     {
@@ -3078,7 +3771,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L112",
       "id": "templates_ui_ux_audit_report_copy_improvements",
-      "community": 9,
+      "community": 10,
       "norm_label": "copy improvements"
     },
     {
@@ -3087,7 +3780,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L118",
       "id": "templates_ui_ux_audit_report_accessibility_fixes",
-      "community": 9,
+      "community": 10,
       "norm_label": "accessibility fixes"
     },
     {
@@ -3096,7 +3789,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L128",
       "id": "templates_ui_ux_audit_report_responsive_and_platform_fixes",
-      "community": 9,
+      "community": 10,
       "norm_label": "responsive and platform fixes"
     },
     {
@@ -3105,7 +3798,7 @@
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L136",
       "id": "templates_ui_ux_audit_report_qa_checklist",
-      "community": 9,
+      "community": 10,
       "norm_label": "qa checklist"
     },
     {
@@ -3114,7 +3807,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L1",
       "id": "templates_ui_ux_brief_md",
-      "community": 15,
+      "community": 16,
       "norm_label": "ui-ux-brief.md"
     },
     {
@@ -3123,7 +3816,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L1",
       "id": "templates_ui_ux_brief_ui_ux_brief",
-      "community": 15,
+      "community": 16,
       "norm_label": "ui/ux brief"
     },
     {
@@ -3132,7 +3825,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L3",
       "id": "templates_ui_ux_brief_project",
-      "community": 15,
+      "community": 16,
       "norm_label": "project"
     },
     {
@@ -3141,7 +3834,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L11",
       "id": "templates_ui_ux_brief_goal",
-      "community": 15,
+      "community": 16,
       "norm_label": "goal"
     },
     {
@@ -3150,7 +3843,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L19",
       "id": "templates_ui_ux_brief_users",
-      "community": 15,
+      "community": 16,
       "norm_label": "users"
     },
     {
@@ -3159,7 +3852,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L28",
       "id": "templates_ui_ux_brief_current_problem",
-      "community": 15,
+      "community": 16,
       "norm_label": "current problem"
     },
     {
@@ -3168,7 +3861,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L36",
       "id": "templates_ui_ux_brief_research_and_evidence_plan",
-      "community": 15,
+      "community": 16,
       "norm_label": "research and evidence plan"
     },
     {
@@ -3177,7 +3870,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L44",
       "id": "templates_ui_ux_brief_constraints",
-      "community": 15,
+      "community": 16,
       "norm_label": "constraints"
     },
     {
@@ -3186,7 +3879,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L56",
       "id": "templates_ui_ux_brief_competitive_reference_direction",
-      "community": 15,
+      "community": 16,
       "norm_label": "competitive/reference direction"
     },
     {
@@ -3195,7 +3888,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L63",
       "id": "templates_ui_ux_brief_deliverables_needed",
-      "community": 15,
+      "community": 16,
       "norm_label": "deliverables needed"
     },
     {
@@ -3204,7 +3897,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L78",
       "id": "templates_ui_ux_brief_assumptions",
-      "community": 15,
+      "community": 16,
       "norm_label": "assumptions"
     },
     {
@@ -3213,7 +3906,7 @@
       "source_file": "templates/ui-ux-brief.md",
       "source_location": "L83",
       "id": "templates_ui_ux_brief_open_questions",
-      "community": 15,
+      "community": 16,
       "norm_label": "open questions"
     },
     {
@@ -3222,7 +3915,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L1",
       "id": "templates_ui_ux_memory_md",
-      "community": 1,
+      "community": 3,
       "norm_label": "ui-ux-memory.md"
     },
     {
@@ -3231,7 +3924,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L1",
       "id": "templates_ui_ux_memory_ui_ux_memory",
-      "community": 1,
+      "community": 3,
       "norm_label": "ui/ux memory"
     },
     {
@@ -3240,7 +3933,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L5",
       "id": "templates_ui_ux_memory_product_summary",
-      "community": 1,
+      "community": 3,
       "norm_label": "product summary"
     },
     {
@@ -3249,7 +3942,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L12",
       "id": "templates_ui_ux_memory_target_users_and_jobs",
-      "community": 1,
+      "community": 3,
       "norm_label": "target users and jobs"
     },
     {
@@ -3258,7 +3951,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L19",
       "id": "templates_ui_ux_memory_brand_personality",
-      "community": 1,
+      "community": 3,
       "norm_label": "brand personality"
     },
     {
@@ -3267,7 +3960,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L27",
       "id": "templates_ui_ux_memory_design_method_blend",
-      "community": 1,
+      "community": 3,
       "norm_label": "design method blend"
     },
     {
@@ -3276,7 +3969,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L36",
       "id": "templates_ui_ux_memory_existing_branding_baseline",
-      "community": 1,
+      "community": 3,
       "norm_label": "existing branding baseline"
     },
     {
@@ -3285,7 +3978,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L46",
       "id": "templates_ui_ux_memory_design_tokens",
-      "community": 1,
+      "community": 3,
       "norm_label": "design tokens"
     },
     {
@@ -3294,7 +3987,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L48",
       "id": "templates_ui_ux_memory_colors",
-      "community": 1,
+      "community": 3,
       "norm_label": "colors"
     },
     {
@@ -3303,7 +3996,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L66",
       "id": "templates_ui_ux_memory_typography",
-      "community": 1,
+      "community": 3,
       "norm_label": "typography"
     },
     {
@@ -3312,7 +4005,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L81",
       "id": "templates_ui_ux_memory_spacing_and_layout",
-      "community": 1,
+      "community": 3,
       "norm_label": "spacing and layout"
     },
     {
@@ -3321,7 +4014,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L90",
       "id": "templates_ui_ux_memory_shape_elevation_motion",
-      "community": 1,
+      "community": 3,
       "norm_label": "shape, elevation, motion"
     },
     {
@@ -3330,7 +4023,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L98",
       "id": "templates_ui_ux_memory_component_rules",
-      "community": 1,
+      "community": 3,
       "norm_label": "component rules"
     },
     {
@@ -3339,7 +4032,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L100",
       "id": "templates_ui_ux_memory_buttons",
-      "community": 1,
+      "community": 3,
       "norm_label": "buttons"
     },
     {
@@ -3348,7 +4041,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L108",
       "id": "templates_ui_ux_memory_forms",
-      "community": 1,
+      "community": 3,
       "norm_label": "forms"
     },
     {
@@ -3357,7 +4050,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L116",
       "id": "templates_ui_ux_memory_cards_panels",
-      "community": 1,
+      "community": 3,
       "norm_label": "cards/panels"
     },
     {
@@ -3366,7 +4059,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L123",
       "id": "templates_ui_ux_memory_navigation",
-      "community": 1,
+      "community": 3,
       "norm_label": "navigation"
     },
     {
@@ -3375,7 +4068,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L129",
       "id": "templates_ui_ux_memory_tables_lists",
-      "community": 1,
+      "community": 3,
       "norm_label": "tables/lists"
     },
     {
@@ -3384,7 +4077,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L136",
       "id": "templates_ui_ux_memory_modals_drawers_popovers",
-      "community": 1,
+      "community": 3,
       "norm_label": "modals/drawers/popovers"
     },
     {
@@ -3393,7 +4086,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L143",
       "id": "templates_ui_ux_memory_interaction_and_state_rules",
-      "community": 1,
+      "community": 3,
       "norm_label": "interaction and state rules"
     },
     {
@@ -3402,7 +4095,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L154",
       "id": "templates_ui_ux_memory_accessibility_rules",
-      "community": 1,
+      "community": 3,
       "norm_label": "accessibility rules"
     },
     {
@@ -3411,7 +4104,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L164",
       "id": "templates_ui_ux_memory_content_and_microcopy_voice",
-      "community": 1,
+      "community": 3,
       "norm_label": "content and microcopy voice"
     },
     {
@@ -3420,7 +4113,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L174",
       "id": "templates_ui_ux_memory_responsive_rules",
-      "community": 1,
+      "community": 3,
       "norm_label": "responsive rules"
     },
     {
@@ -3429,7 +4122,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L182",
       "id": "templates_ui_ux_memory_do_don_t",
-      "community": 1,
+      "community": 3,
       "norm_label": "do / don't"
     },
     {
@@ -3438,7 +4131,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L184",
       "id": "templates_ui_ux_memory_do",
-      "community": 1,
+      "community": 3,
       "norm_label": "do"
     },
     {
@@ -3447,7 +4140,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L188",
       "id": "templates_ui_ux_memory_don_t",
-      "community": 1,
+      "community": 3,
       "norm_label": "don't"
     },
     {
@@ -3456,7 +4149,7 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L192",
       "id": "templates_ui_ux_memory_local_exceptions",
-      "community": 1,
+      "community": 3,
       "norm_label": "local exceptions"
     },
     {
@@ -3465,8 +4158,62 @@
       "source_file": "templates/ui-ux-memory.md",
       "source_location": "L200",
       "id": "templates_ui_ux_memory_design_decision_change_log",
-      "community": 1,
+      "community": 3,
       "norm_label": "design decision change log"
+    },
+    {
+      "label": "UI-UX Skills",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "ui-ux skills",
+      "id": "ui_ux_skills_readme_ui_ux_skills"
+    },
+    {
+      "label": "What This Package Covers",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "community": 0,
+      "norm_label": "what this package covers",
+      "id": "ui_ux_skills_readme_what_this_package_covers"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "community": 0,
+      "norm_label": "installation",
+      "id": "ui_ux_skills_readme_installation"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "community": 0,
+      "norm_label": "usage",
+      "id": "ui_ux_skills_readme_usage"
+    },
+    {
+      "label": "Validation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "community": 0,
+      "norm_label": "validation",
+      "id": "ui_ux_skills_readme_validation"
+    },
+    {
+      "label": "Maintenance",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L82",
+      "community": 0,
+      "norm_label": "maintenance",
+      "id": "ui_ux_skills_readme_maintenance"
     },
     {
       "label": "Mobile UX",
@@ -3482,7 +4229,7 @@
       "file_type": "document",
       "source_file": "templates/top-brand-frontend-spec.md",
       "source_location": "L112",
-      "community": 10,
+      "community": 12,
       "norm_label": "11. do not copy",
       "id": "templates_top_brand_frontend_spec_11_do_not_copy"
     },
@@ -3491,7 +4238,7 @@
       "file_type": "document",
       "source_file": "templates/ui-ux-audit-report.md",
       "source_location": "L98",
-      "community": 9,
+      "community": 10,
       "norm_label": "responsive fixes",
       "id": "templates_ui_ux_audit_report_responsive_fixes"
     },
@@ -3500,7 +4247,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "community": 5,
+      "community": 0,
       "norm_label": "ui/ux master skill",
       "id": "ui_ux_skills_readme_ui_ux_master_skill"
     },
@@ -3509,7 +4256,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
-      "community": 5,
+      "community": 0,
       "norm_label": "main skill",
       "id": "ui_ux_skills_readme_main_skill"
     },
@@ -3518,7 +4265,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L9",
-      "community": 5,
+      "community": 0,
       "norm_label": "supporting files",
       "id": "ui_ux_skills_readme_supporting_files"
     },
@@ -3527,7 +4274,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L23",
-      "community": 5,
+      "community": 0,
       "norm_label": "validate",
       "id": "ui_ux_skills_readme_validate"
     },
@@ -3536,7 +4283,7 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L37",
-      "community": 5,
+      "community": 0,
       "norm_label": "install into hermes skills folder",
       "id": "ui_ux_skills_readme_install_into_hermes_skills_folder"
     },
@@ -3545,12 +4292,368 @@
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L48",
-      "community": 5,
+      "community": 0,
       "norm_label": "usage prompt",
       "id": "ui_ux_skills_readme_usage_prompt"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_filename"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_packageroot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_read"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_mkdirp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_writefile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_appendmarked"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_escaperegexp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_parseargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_findprojectroot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_wanted"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_copyprojectskillassets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_installproject"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_copydir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_installglobal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_uninstallproject"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_doctor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_help"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_mjs",
+      "target": "bin_ui_ux_master_opts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_copyprojectskillassets",
+      "target": "bin_ui_ux_master_read"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installproject",
+      "target": "bin_ui_ux_master_read"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installglobal",
+      "target": "bin_ui_ux_master_read"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_writefile",
+      "target": "bin_ui_ux_master_mkdirp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_appendmarked",
+      "target": "bin_ui_ux_master_mkdirp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_copyprojectskillassets",
+      "target": "bin_ui_ux_master_writefile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installproject",
+      "target": "bin_ui_ux_master_writefile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installglobal",
+      "target": "bin_ui_ux_master_writefile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_appendmarked",
+      "target": "bin_ui_ux_master_escaperegexp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installproject",
+      "target": "bin_ui_ux_master_appendmarked"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_uninstallproject",
+      "target": "bin_ui_ux_master_escaperegexp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_doctor",
+      "target": "bin_ui_ux_master_findprojectroot"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installproject",
+      "target": "bin_ui_ux_master_wanted"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_copyprojectskillassets",
+      "target": "bin_ui_ux_master_copydir"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installproject",
+      "target": "bin_ui_ux_master_copyprojectskillassets"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/ui-ux-master.mjs",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bin_ui_ux_master_installglobal",
+      "target": "bin_ui_ux_master_copydir"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -3585,6 +4688,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skill.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_skill_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
       "source_location": "L115",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3610,6 +4723,36 @@
       "confidence_score": 1.0,
       "source": "scripts_validate_skill_py",
       "target": "scripts_validate_skill_check_skill_frontmatter_and_body"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_check_package_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_check_bin_installer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L221",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_check_agent_templates"
     },
     {
       "relation": "contains",
@@ -3700,6 +4843,39 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skill.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_check_package_json",
+      "target": "scripts_validate_skill_fail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_check_bin_installer",
+      "target": "scripts_validate_skill_fail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_check_agent_templates",
+      "target": "scripts_validate_skill_fail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
       "source_location": "L170",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3766,11 +4942,33 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skill.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_skill_version",
+      "target": "scripts_validate_skill_parse_frontmatter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
       "source_location": "L138",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_validate_skill_check_skill_frontmatter_and_body",
       "target": "scripts_validate_skill_parse_frontmatter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_check_package_json",
+      "target": "scripts_validate_skill_skill_version"
     },
     {
       "relation": "calls",
@@ -3810,6 +5008,39 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/validate_skill.py",
+      "source_location": "L289",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_main",
+      "target": "scripts_validate_skill_check_package_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_main",
+      "target": "scripts_validate_skill_check_bin_installer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L291",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_main",
+      "target": "scripts_validate_skill_check_agent_templates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
       "source_location": "L206",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3841,6 +5072,106 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_bin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_pkg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_templates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_run"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_text"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_dir"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_out"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/install-smoke.test.mjs",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_install_smoke_test_mjs",
+      "target": "tests_install_smoke_test_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "ui_ux_skills_readme_ui_ux_master"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -3862,41 +5193,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L5",
+      "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_what_this_package_covers"
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_codeblock_1"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L18",
+      "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_package_structure"
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_why_use_ui_ux_master"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L25",
+      "source_location": "L19",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_installation"
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_what_makes_it_different"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L36",
+      "source_location": "L32",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_usage"
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_capabilities"
     },
     {
       "relation": "contains",
@@ -3905,47 +5236,97 @@
       "source_location": "L50",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_validation"
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_install_with_npm"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L72",
+      "source_location": "L84",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_supported_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_usage_examples"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_cli_commands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_package_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_validation_and_testing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
+      "target": "ui_ux_skills_readme_competitive_positioning"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master",
       "target": "ui_ux_skills_readme_deployment_readiness_checklist"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L82",
+      "source_location": "L188",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
-      "target": "ui_ux_skills_readme_maintenance"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L89",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "source": "ui_ux_skills_readme_ui_ux_master",
       "target": "ui_ux_skills_readme_known_limitations"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L95",
+      "source_location": "L196",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "source": "ui_ux_skills_readme_ui_ux_master",
       "target": "ui_ux_skills_readme_license"
     },
     {
@@ -3967,6 +5348,56 @@
       "confidence_score": 1.0,
       "source": "ui_ux_skills_readme_validate",
       "target": "ui_ux_skills_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_with_npm",
+      "target": "ui_ux_skills_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_with_npm",
+      "target": "ui_ux_skills_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_with_npm",
+      "target": "ui_ux_skills_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_with_npm",
+      "target": "ui_ux_skills_readme_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_with_npm",
+      "target": "ui_ux_skills_readme_codeblock_6"
     },
     {
       "relation": "contains",
@@ -4002,10 +5433,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_into_hermes_skills_folder",
+      "target": "ui_ux_skills_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L60",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ui_ux_skills_readme_validation",
+      "target": "ui_ux_skills_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_usage_prompt",
       "target": "ui_ux_skills_readme_codeblock_4"
     },
     {
@@ -4022,21 +5473,131 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L38",
+      "source_location": "L100",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_install_into_hermes_skills_folder",
-      "target": "ui_ux_skills_readme_codeblock_3"
+      "source": "ui_ux_skills_readme_usage_examples",
+      "target": "ui_ux_skills_readme_codeblock_7"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L49",
+      "source_location": "L104",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ui_ux_skills_readme_usage_prompt",
-      "target": "ui_ux_skills_readme_codeblock_4"
+      "source": "ui_ux_skills_readme_usage_examples",
+      "target": "ui_ux_skills_readme_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_usage_examples",
+      "target": "ui_ux_skills_readme_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_usage_examples",
+      "target": "ui_ux_skills_readme_codeblock_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_usage_examples",
+      "target": "ui_ux_skills_readme_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_cli_commands",
+      "target": "ui_ux_skills_readme_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_package_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_validation_and_testing",
+      "target": "ui_ux_skills_readme_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L156",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_validation_and_testing",
+      "target": "ui_ux_skills_readme_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_validation_and_testing",
+      "target": "ui_ux_skills_readme_codeblock_15"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_deployment_readiness_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_known_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_license"
     },
     {
       "relation": "contains",
@@ -4057,6 +5618,16 @@
       "confidence_score": 1.0,
       "source": "ui_ux_skills_skill_ui_ux_master_skill",
       "target": "ui_ux_skills_skill_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_cross_agent_activation"
     },
     {
       "relation": "contains",
@@ -4471,6 +6042,156 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "agent-templates/antigravity/AGENTS.append.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_templates_antigravity_agents_append_md",
+      "target": "antigravity_agents_append_ui_ux_master_opt_in_trigger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-templates/codex/AGENTS.append.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_templates_codex_agents_append_md",
+      "target": "codex_agents_append_ui_ux_master_opt_in_trigger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-templates/gemini/GEMINI.append.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_templates_gemini_gemini_append_md",
+      "target": "gemini_gemini_append_ui_ux_master_opt_in_trigger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-templates/universal/ui-ux-master-trigger.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_templates_universal_ui_ux_master_trigger_md",
+      "target": "universal_ui_ux_master_trigger_ui_ux_master_trigger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-templates/windsurf/rules/ui-ux-master.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_templates_windsurf_rules_ui_ux_master_md",
+      "target": "rules_ui_ux_master_ui_ux_master_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_md",
+      "target": "docs_slash_command_compatibility_slash_command_compatibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_what_ui_ux_master_does"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_native_slash_commands_vs_text_triggers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_supported_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_project_local_install"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_global_install"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_troubleshooting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_slash_command_compatibility",
+      "target": "docs_slash_command_compatibility_security_and_consent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_project_local_install",
+      "target": "docs_slash_command_compatibility_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/slash-command-compatibility.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_slash_command_compatibility_global_install",
+      "target": "docs_slash_command_compatibility_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "references/accessibility-advanced-patterns.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -4527,6 +6248,66 @@
       "confidence_score": 1.0,
       "source": "references_accessibility_advanced_patterns_advanced_accessibility_patterns",
       "target": "references_accessibility_advanced_patterns_accessible_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_md",
+      "target": "references_competitive_landscape_competitive_landscape_and_differentiation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "target": "references_competitive_landscape_what_existing_tools_do_well"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "target": "references_competitive_landscape_where_narrow_skills_often_outperform_generic_ui_prompts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "target": "references_competitive_landscape_gaps_ui_ux_master_must_beat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "target": "references_competitive_landscape_remaining_honest_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/competitive-landscape.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_competitive_landscape_competitive_landscape_and_differentiation",
+      "target": "references_competitive_landscape_strategy_to_stay_ahead"
     },
     {
       "relation": "contains",
@@ -7415,6 +9196,56 @@
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_what_this_package_covers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_installation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_validation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_skills",
+      "target": "ui_ux_skills_readme_maintenance"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_ux_skills_readme_ui_ux_master_skill",
       "target": "ui_ux_skills_readme_main_skill"
     },
@@ -7460,5 +9291,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "677cb0bed7b34974da88a50fe4175d790e5662a7"
+  "built_at_commit": "7c4838a573974925e456f416fa48c0337ead0745"
 }

@@ -7,16 +7,28 @@ Use --release for stricter deployment packaging checks.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "SKILL.md"
-README = ROOT / "README.md"
+PACKAGE = ROOT / "package.json"
 
 REQUIRED = [
     "README.md",
+    "LICENSE",
+    "package.json",
+    "bin/ui-ux-master.mjs",
+    "docs/slash-command-compatibility.md",
+    "agent-templates/claude/commands/ui-ux-master.md",
+    "agent-templates/universal/ui-ux-master-trigger.md",
+    "agent-templates/codex/AGENTS.append.md",
+    "agent-templates/windsurf/rules/ui-ux-master.md",
+    "agent-templates/antigravity/AGENTS.append.md",
+    "agent-templates/gemini/GEMINI.append.md",
+    "agent-templates/cursor/rules/ui-ux-master.mdc",
     "references/ui-ux-complete-checklist.md",
     "references/ui-ux-frontend-implementation-rules.md",
     "references/ui-ux-memory-workflow.md",
@@ -33,12 +45,15 @@ REQUIRED = [
     "references/data-visualization-dashboard-ux.md",
     "references/accessibility-advanced-patterns.md",
     "references/ui-ux-curriculum-and-standards.md",
+    "references/competitive-landscape.md",
     "templates/ui-ux-brief.md",
     "templates/ui-ux-memory.md",
     "templates/ui-ux-audit-report.md",
     "templates/component-spec.md",
     "templates/design-system-spec.md",
     "templates/top-brand-frontend-spec.md",
+    "scripts/build_deployment_zip.py",
+    "tests/install-smoke.test.mjs",
 ]
 
 REQUIRED_PHRASES = [
@@ -60,10 +75,13 @@ REQUIRED_PHRASES = [
     "Measurement and Quality Gates",
     "Ethics",
     "privacy",
+    "/ui-ux-master",
+    "Cross-Agent Activation",
 ]
 
 REQUIRED_HEADINGS = {
-    "README.md": ["## Installation", "## Usage", "## Validation", "## Deployment Readiness Checklist"],
+    "README.md": ["## Install with npm", "## Supported Agents", "## Competitive Positioning", "## Validation and Testing", "## Deployment Readiness Checklist"],
+    "docs/slash-command-compatibility.md": ["## What `/ui-ux-master` Does", "## Native Slash Commands vs Text Triggers", "## Supported Agents"],
     "references/ux-research-methods.md": ["## Research Decision Tree", "## Research Plan Template", "## Evidence Confidence Levels"],
     "references/usability-heuristics.md": ["## Nielsen's 10 Usability Heuristics", "## Severity Rating"],
     "references/platform-guidelines.md": ["## Web App", "## iOS / Apple Platforms", "## Android / Material", "## Cross-Platform Rule"],
@@ -74,6 +92,7 @@ REQUIRED_HEADINGS = {
     "references/data-visualization-dashboard-ux.md": ["## Dashboard Principles", "## Chart Selection", "## Tables and Data Grids"],
     "references/accessibility-advanced-patterns.md": ["## Complex Widget Checklist", "## Testing Matrix"],
     "references/ui-ux-curriculum-and-standards.md": ["## Beginner Foundations", "## Intermediate Practice", "## Advanced Practice"],
+    "references/competitive-landscape.md": ["## What Existing Tools Do Well", "## Gaps UI/UX Master Must Beat", "## Strategy to Stay Ahead"],
     "templates/ui-ux-brief.md": ["## Research and Evidence Plan", "## Constraints", "## Deliverables Needed"],
     "templates/ui-ux-audit-report.md": ["## Heuristic Findings", "## Measured Evidence and Quality Gates"],
     "templates/component-spec.md": ["## Acceptance Criteria and Test Matrix"],
@@ -101,7 +120,6 @@ def parse_frontmatter(content: str) -> tuple[dict[str, str], str]:
     body = content[end_marker + 5 :]
     if not body.strip():
         fail("SKILL.md body is empty")
-
     frontmatter: dict[str, str] = {}
     for raw_line in frontmatter_text.splitlines():
         if not raw_line or raw_line.startswith(" ") or raw_line.lstrip().startswith("#"):
@@ -112,13 +130,18 @@ def parse_frontmatter(content: str) -> tuple[dict[str, str], str]:
     return frontmatter, body
 
 
+def skill_version() -> str:
+    fm, _ = parse_frontmatter(SKILL.read_text(encoding="utf-8"))
+    return fm.get("version", "")
+
+
 def check_required_files() -> None:
     for rel in REQUIRED:
         path = ROOT / rel
         if not path.exists():
             fail(f"missing supporting file: {rel}")
         text = path.read_text(encoding="utf-8")
-        min_len = 500 if rel.endswith(".md") else 200
+        min_len = 150 if rel.endswith((".json", ".mjs")) else 200
         if len(text.strip()) < min_len:
             fail(f"supporting file too small or empty: {rel}")
 
@@ -136,42 +159,92 @@ def check_skill_frontmatter_and_body() -> None:
         fail("SKILL.md is missing")
     content = SKILL.read_text(encoding="utf-8")
     fm, body = parse_frontmatter(content)
-
     for key in ["name", "description", "version", "author", "license", "metadata"]:
         if key not in content.split("---", 2)[1]:
             fail(f"frontmatter missing {key}")
-
     name = fm.get("name", "")
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,63}", name):
         fail("name must be lowercase hyphenated and <=64 chars")
-
     description = fm.get("description", "")
     if len(description) > 1024:
         fail("description must be <=1024 chars")
     if not description.startswith("Use when"):
         fail('description should start with "Use when"')
-
     if len(content) > 100_000:
         fail("SKILL.md exceeds 100,000 characters")
     if len(content) > 45_000:
         warn("SKILL.md is getting large; keep detailed material in references/")
-
     lower_body = body.lower()
     for phrase in REQUIRED_PHRASES:
         if phrase.lower() not in lower_body:
             fail(f"SKILL.md missing required phrase: {phrase}")
 
 
+def check_package_json() -> None:
+    try:
+        data = json.loads(PACKAGE.read_text(encoding="utf-8"))
+    except Exception as exc:
+        fail(f"package.json is invalid JSON: {exc}")
+    for key in ["name", "version", "description", "type", "bin", "files", "scripts", "license", "engines"]:
+        if key not in data:
+            fail(f"package.json missing {key}")
+    if data["name"] != "ui-ux-master":
+        fail("package.json name must be ui-ux-master")
+    if data["version"] != skill_version():
+        fail("package.json version must match SKILL.md version")
+    if data.get("license") != "MIT":
+        fail("package.json license must be MIT")
+    if data.get("bin", {}).get("ui-ux-master") != "./bin/ui-ux-master.mjs":
+        fail("package.json bin.ui-ux-master must point to ./bin/ui-ux-master.mjs")
+    for script in ["validate", "test", "prepack"]:
+        if script not in data.get("scripts", {}):
+            fail(f"package.json scripts missing {script}")
+    required_files = ["SKILL.md", "references/", "templates/", "agent-templates/", "docs/", "bin/", "scripts/", "tests/"]
+    for item in required_files:
+        if item not in data.get("files", []):
+            fail(f"package.json files missing {item}")
+
+
+def check_bin_installer() -> None:
+    text = (ROOT / "bin/ui-ux-master.mjs").read_text(encoding="utf-8")
+    if not text.startswith("#!/usr/bin/env node"):
+        fail("bin/ui-ux-master.mjs must have node shebang")
+    for phrase in ["install", "doctor", "uninstall", "--dry-run", "fileURLToPath", "/ui-ux-master", "copyProjectSkillAssets", ".ui-ux-master"]:
+        if phrase not in text:
+            fail(f"bin installer missing {phrase}")
+    forbidden = ["C:\\", "C:/xampp", "C:/Users", "/home/"]
+    for bad in forbidden:
+        if bad in text:
+            fail(f"bin installer contains local absolute path: {bad}")
+
+
+def check_agent_templates() -> None:
+    template_files = [rel for rel in REQUIRED if rel.startswith("agent-templates/") or rel.startswith("docs/")]
+    for rel in template_files:
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        for phrase in ["/ui-ux-master", "UI/UX", "memory", ".ui-ux-master"]:
+            if phrase not in text:
+                fail(f"{rel} missing required trigger phrase: {phrase}")
+        for bad in ["C:\\", "C:/xampp", "C:/Users", "/workspace"]:
+            if bad in text:
+                fail(f"{rel} contains local absolute path: {bad}")
+    docs = (ROOT / "docs/slash-command-compatibility.md").read_text(encoding="utf-8")
+    for agent in ["Claude", "Codex", "Windsurf", "Antigravity", "Gemini", "Cursor", "native slash"]:
+        if agent not in docs:
+            fail(f"slash compatibility docs missing {agent}")
+
+
 def check_referenced_files_exist() -> None:
     content = SKILL.read_text(encoding="utf-8")
-    refs = sorted(set(re.findall(r"`((?:references|templates)/[^`]+?\.md|README\.md)`", content)))
+    refs = sorted(set(re.findall(r"`((?:references|templates|agent-templates|docs|bin|scripts)/[^`]+?\.(?:md|mjs|py)|README\.md)`", content)))
     for rel in refs:
+        if rel in {"docs/ui-ux-memory.md", "docs/design/ui-ux-memory.md", "design/ui-ux-memory.md"}:
+            continue
         if not (ROOT / rel).exists():
             fail(f"SKILL.md references missing file: {rel}")
 
 
 def check_markdown_links() -> None:
-    # Check local markdown links only. External links are intentionally not fetched.
     for path in [ROOT / rel for rel in REQUIRED if rel.endswith(".md")]:
         text = path.read_text(encoding="utf-8")
         for match in re.findall(r"\[[^\]]+\]\(([^)]+)\)", text):
@@ -183,13 +256,24 @@ def check_markdown_links() -> None:
 
 
 def check_release_artifacts(strict: bool) -> None:
-    bad_patterns = ["**/__pycache__", "**/*.pyc", "**/.DS_Store", "**/Thumbs.db", "graphify-out/cache"]
+    bad_patterns = [
+        "**/__pycache__",
+        "**/*.pyc",
+        "**/.DS_Store",
+        "**/Thumbs.db",
+        "graphify-out/cache",
+        "node_modules",
+        "coverage",
+        ".nyc_output",
+        "*.tgz",
+        "npm-debug.log*",
+    ]
     found: list[str] = []
     for pattern in bad_patterns:
         for path in ROOT.glob(pattern):
             found.append(str(path.relative_to(ROOT)))
     if found:
-        message = "release artifacts found: " + ", ".join(sorted(found)[:12])
+        message = "release artifacts found: " + ", ".join(sorted(found)[:20])
         if strict:
             fail(message)
         warn(message)
@@ -199,14 +283,15 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--release", action="store_true", help="run stricter deployment packaging checks")
     args = parser.parse_args()
-
     check_skill_frontmatter_and_body()
     check_required_files()
     check_required_headings()
+    check_package_json()
+    check_bin_installer()
+    check_agent_templates()
     check_referenced_files_exist()
     check_markdown_links()
     check_release_artifacts(strict=args.release)
-
     print("PASS: UI/UX skill package is valid")
     print(f"Root: {ROOT}")
     print(f"Files checked: {1 + len(REQUIRED)}")

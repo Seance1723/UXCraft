@@ -1,0 +1,55 @@
+{
+  "name": "ui-ux-master",
+  "version": "1.1.0",
+  "description": "One-stop UI/UX master skill for AI agents with opt-in /ui-ux-master activation across Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal agents.",
+  "type": "module",
+  "bin": {
+    "ui-ux-master": "./bin/ui-ux-master.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "references/",
+    "templates/",
+    "agent-templates/",
+    "docs/",
+    "bin/",
+    "scripts/",
+    "tests/"
+  ],
+  "scripts": {
+    "validate": "python scripts/validate_skill.py --release",
+    "test": "node --test tests/*.test.mjs",
+    "prepack": "npm run validate && npm test",
+    "build:zip": "python scripts/build_deployment_zip.py"
+  },
+  "keywords": [
+    "ai-agent",
+    "ui",
+    "ux",
+    "ui-ux",
+    "design-system",
+    "accessibility",
+    "wcag",
+    "claude-code",
+    "codex",
+    "windsurf",
+    "antigravity",
+    "gemini-cli",
+    "cursor",
+    "slash-command",
+    "agent-skill",
+    "frontend"
+  ],
+  "license": "MIT",
+  "author": "UI/UX Master contributors",
+  "engines": {
+    "node": ">=18"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
