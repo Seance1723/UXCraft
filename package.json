@@ -1,17 +1,37 @@
 {
   "name": "ui-ux-master",
   "version": "1.2.0",
-  "description": "One-stop UI/UX master skill for AI agents with opt-in /ui-ux-master activation, system prompt add-ons, AI discovery assets, and local MCP server support.",
+  "description": "Opt-in UI/UX master skill, CLI, and MCP server for AI coding agents, with accessibility, design-system, UX research, and frontend handoff workflows.",
   "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json",
+    "./skill": "./SKILL.md",
+    "./llms": "./llms.txt",
+    "./manifest": "./ai-discovery/ui-ux-master.manifest.json",
+    "./cli": "./bin/ui-ux-master.mjs",
+    "./mcp": "./bin/ui-ux-master-mcp.mjs"
+  },
   "bin": {
     "ui-ux-master": "./bin/ui-ux-master.mjs",
     "ui-ux-master-mcp": "./bin/ui-ux-master-mcp.mjs"
   },
+  "sideEffects": false,
   "files": [
     "SKILL.md",
     "README.md",
     "LICENSE",
     "package.json",
+    "index.cjs",
+    "index.d.ts",
+    "index.mjs",
     "references/",
     "templates/",
     "agent-templates/",
@@ -25,40 +45,82 @@
   ],
   "scripts": {
     "validate": "python scripts/validate_skill.py --release",
-    "test": "node --test tests/*.test.mjs",
+    "validate:release": "python scripts/validate_skill.py --release",
+    "check:syntax": "node --check index.mjs && node --check index.cjs && node --check bin/ui-ux-master.mjs && node --check bin/ui-ux-master-mcp.mjs",
+    "doctor": "node bin/ui-ux-master.mjs doctor --dry-run",
+    "test": "npm run test:smoke",
+    "test:smoke": "npm run check:syntax && npm run doctor",
+    "test:node": "node --test tests/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run",
     "prepack": "npm run validate && npm test",
     "build:zip": "python scripts/build_deployment_zip.py"
   },
   "keywords": [
+    "ai",
     "ai-agent",
+    "ai-agents",
+    "ai-coding",
+    "agent",
     "ui",
     "ux",
     "ui-ux",
+    "user-experience",
+    "product-design",
+    "ux-research",
+    "frontend",
+    "frontend-development",
     "design-system",
+    "design-systems",
     "accessibility",
     "wcag",
+    "wcag-2-2",
+    "aria",
+    "a11y",
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "cli",
+    "npx",
+    "prompt-engineering",
+    "system-prompt",
+    "ai-discovery",
+    "llms-txt",
     "claude-code",
+    "claude",
     "codex",
     "windsurf",
     "antigravity",
     "gemini-cli",
+    "gemini",
     "cursor",
     "slash-command",
-    "agent-skill",
-    "frontend",
-    "mcp",
-    "model-context-protocol",
-    "system-prompt",
-    "ai-discovery",
-    "llms-txt"
+    "agent-skill"
   ],
   "license": "MIT",
   "author": "Rupak Biswas",
-  "engines": {
-    "node": ">=18"
+  "homepage": "https://github.com/Seance1723/UI-UX-Skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seance1723/UI-UX-Skills.git"
   },
+  "bugs": {
+    "url": "https://github.com/Seance1723/UI-UX-Skills/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Seance1723"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "preferGlobal": true,
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
