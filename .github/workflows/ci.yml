@@ -41,14 +41,8 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Validate release package
-        run: npm run validate
-
-      - name: Smoke test
-        run: npm test
-
-      - name: Node test suite
-        run: npm run test:node
+      - name: Validate, build, and test
+        run: npm run ci
 
       - name: Pack dry run
         run: npm pack --dry-run

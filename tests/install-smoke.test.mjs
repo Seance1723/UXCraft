@@ -3,9 +3,14 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
+import { createRequire } from 'node:module';
 import test from 'node:test';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const root = path.resolve(import.meta.dirname, '..');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const require = createRequire(import.meta.url);
+const root = path.resolve(__dirname, '..');
 const bin = path.join(root, 'bin', 'ui-ux-master.mjs');
 const mcpBin = path.join(root, 'bin', 'ui-ux-master-mcp.mjs');
 const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
@@ -38,6 +43,21 @@ test('package exposes cli and mcp bins with Rupak Biswas author', () => {
   assert.ok(fs.existsSync(mcpBin));
   assert.ok(fs.readFileSync(bin, 'utf8').startsWith('#!/usr/bin/env node'));
   assert.ok(fs.readFileSync(mcpBin, 'utf8').startsWith('#!/usr/bin/env node'));
+});
+
+test('package metadata APIs work from ESM and CommonJS entrypoints', async () => {
+  const esm = await import(pathToFileURL(path.join(root, 'index.mjs')).href);
+  const cjs = require(path.join(root, 'index.cjs'));
+
+  for (const api of [esm, cjs]) {
+    assert.equal(api.name, 'ui-ux-master');
+    assert.equal(api.version, pkg.version);
+    assert.equal(api.trigger, '/ui-ux-master');
+    assert.equal(api.bins.cli, bin);
+    assert.equal(api.bins.mcp, mcpBin);
+    assert.equal(api.assetPath('skill'), path.join(root, 'SKILL.md'));
+    assert.throws(() => api.assetPath('missing'), /Unknown ui-ux-master asset/);
+  }
 });
 
 test('agent templates include trigger and avoid local absolute paths', () => {
