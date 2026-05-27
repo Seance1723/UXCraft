@@ -1,4 +1,12 @@
 {
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\index.d.ts": {
+    "mtime": 1779635273.0403695,
+    "hash": "8e42a073c01ae60e46195cdfed085363"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\index.mjs": {
+    "mtime": 1779635272.8415918,
+    "hash": "91d4541929b9901e9132fc81153e6537"
+  },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\bin\\ui-ux-master-mcp.mjs": {
     "mtime": 1779626505.0094934,
     "hash": "28733407e091000cde7b143336a57a64"
@@ -16,20 +24,20 @@
     "hash": "a7fb9dcecbbdf029e0950456927e7472"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\tests\\install-smoke.test.mjs": {
-    "mtime": 1779626529.406755,
-    "hash": "9fa912d99fed3dbf4b193d351dbf5620"
+    "mtime": 1779638104.758613,
+    "hash": "bf757aefe2b17ab97a32e9b91e427a1d"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\llms.txt": {
     "mtime": 1779624256.0986767,
     "hash": "a4077f1e1a3799da601f47efa439ad3a"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\README.md": {
-    "mtime": 1779626330.2358682,
-    "hash": "5aa7fecf372044608b22f0b5524aca2f"
+    "mtime": 1779635753.3504772,
+    "hash": "e87aafe824a13dce3993c54ff5827558"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\SKILL.md": {
-    "mtime": 1779624678.8105392,
-    "hash": "c92c604090deea2e827fe238920c8677"
+    "mtime": 1779635272.7248633,
+    "hash": "5bea6b21db72a97d573645afa0feba9e"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\agent-templates\\antigravity\\AGENTS.append.md": {
     "mtime": 1779617136.2182817,
@@ -58,6 +66,10 @@
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\docs\\mcp-server.md": {
     "mtime": 1779626024.1024518,
     "hash": "a01d2c83e57e9c9bb004140e36e5ff88"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\docs\\package-publishing.md": {
+    "mtime": 1779635753.4549067,
+    "hash": "5a487e7ca6c815924160d8439d0e91a7"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\docs\\slash-command-compatibility.md": {
     "mtime": 1779617138.1799526,
@@ -130,6 +142,10 @@
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\references\\wcag-aa-quick-reference.md": {
     "mtime": 1779607252.5873876,
     "hash": "df720bae436f7dac6721116970901d37"
+  },
+  "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\release-notes\\v1.2.0.md": {
+    "mtime": 1779633576.329163,
+    "hash": "7a8923b765bd54914a7c2fb6e11d5fb2"
   },
   "C:\\xampp\\htdocs\\AI Skills\\UI-UX Skills\\system-prompts\\ui-ux-master-compact.md": {
     "mtime": 1779624014.0291758,

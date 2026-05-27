@@ -9,6 +9,8 @@
 
 **The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
 
+> **v1.3.0** — 10 dedicated brand-method skill files (Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, Technical Authority) + new Color Psychology and Branding skill for sentiment-driven palette generation.
+
 Author: Rupak Biswas.
 
 Use it with a normal prompt plus one trigger:
@@ -47,6 +49,8 @@ By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**
 | No deployment validation | Release validator, npm package metadata, tests, and deployment zip builder |
 | No product-risk coverage | Ethics, privacy, dark-pattern, high-risk domain, AI-interface, and inclusive-design checks |
 | Hidden from AI tooling | Ships `llms.txt`, machine-readable manifest, system prompt add-ons, and a local MCP server for automatic discovery |
+| Generic color advice | Industry-specific color psychology with sentiment mapping, WCAG contrast verification, and dark mode adaptation |
+| No brand-method depth | 10 dedicated brand-method skill files with full layout, typography, spacing, motion, component specs, and QA checklists |
 
 ## AI Discoverability
 
@@ -75,6 +79,8 @@ UI/UX Master can help agents produce:
 - SaaS dashboards, data visualization, tables, alerts, ecommerce, checkout, onboarding, settings, auth, forms, and landing pages
 - Ethical UX, privacy, consent, dark-pattern detection, AI transparency, and high-risk domain safeguards
 - Developer handoff with states, tokens, responsive behavior, analytics events, QA, and acceptance criteria
+- **NEW v1.3.0:** 10 top-brand design method skill files — each covering layout structure, color scheme, typography, spacing, motion, component specs, accessibility, anti-patterns, and QA checklist for: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, and Technical Authority
+- **NEW v1.3.0:** Color Psychology and Branding skill — analyzes business type and user sentiment, prescribes industry-appropriate palettes, maps emotions to color families, verifies WCAG contrast, and provides dark mode adaptation rules
 
 ## Install with npm
 
@@ -238,7 +244,7 @@ ui-ux-master uninstall --project
 
 - `SKILL.md` — main orchestration skill.
 - `index.mjs`, `index.cjs`, `index.d.ts` — ESM, CommonJS, and TypeScript metadata entrypoints.
-- `references/` — advanced playbooks and standards-aligned checklists.
+- `references/` — advanced playbooks and standards-aligned checklists, including 10 brand-method skill files and the color psychology branding guide.
 - `templates/` — briefs, audits, component specs, design-system specs, and project UI/UX memory template.
 - `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal `/ui-ux-master` activation rules.
 - `docs/` — cross-agent slash-command compatibility docs and MCP server docs.
@@ -300,6 +306,8 @@ UI/UX Master is designed to outperform narrow UI prompt packs and simple design 
 6. Release engineering: npm packaging, CLI installer, validation, tests, and deployment zip.
 7. Advanced risk coverage: ethics, privacy, dark patterns, localization, platform conventions, high-risk domains, and AI UX transparency.
 8. AI discoverability: `llms.txt`, manifest, system prompt add-ons, and local MCP server.
+9. **NEW v1.3.0:** Brand-method depth: 10 dedicated skill files covering the full design spec (layout, color, typography, spacing, motion, accessibility, components, anti-patterns, QA) for each of the 10 top-brand design methods.
+10. **NEW v1.3.0:** Color psychology branding: industry-by-industry palette prescriptions, sentiment-to-color mapping, WCAG contrast verification, and dark mode adaptation — all derived from the psychology of color in branding.
 
 ## Deployment Readiness Checklist
 

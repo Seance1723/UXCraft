@@ -1,7 +1,7 @@
 ---
 name: ui-ux-master
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
-version: 1.2.1
+version: 1.3.0
 author: Rupak Biswas
 license: MIT
 platforms: [linux, macos, windows]
@@ -44,7 +44,8 @@ Do not jump directly to visuals. Work in this order unless the user explicitly a
 2. If memory exists, follow it as the design baseline. If no memory exists, create one for the application using `templates/ui-ux-memory.md` after inspecting existing branding or asking minimum high-value questions for a fresh project.
 3. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
 4. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
-5. Select an appropriate top-brand design method when frontend polish is requested: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
+5. Select an appropriate top-brand design method when frontend polish is requested: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority. Each method has a dedicated skill file in `references/brand-method-*.md` — load the appropriate one.
+5a. Apply color psychology when the user describes a business type or emotional goal. Load `references/color-psychology-branding.md`, identify the industry and sentiment, and prescribe a complete palette with contrast ratios and rationale before any visual design begins.
 6. Design the interface by extending the existing memory/brand baseline unless the user explicitly asks for a redesign or specific visual modification.
 7. Validate: consistency with memory, research evidence, heuristics, WCAG, platform conventions, usability risks, i18n, ethics/privacy, edge cases, technical feasibility, metrics, and brand-fit.
 8. Update the application UI/UX memory with durable design decisions before handoff.
@@ -456,35 +457,51 @@ Must include:
 
 ### Top-Brand Frontend Method
 
-When the user asks for a frontend that looks polished, premium, world-class, or similar to top brands, use `references/top-100-brand-website-analysis.md` before designing.
+When the user asks for a frontend that looks polished, premium, world-class, or similar to top brands, use `references/top-100-brand-website-analysis.md` before designing. Then load the dedicated skill file for the selected method.
 
 Process:
 
 1. Identify the product category and user task.
-2. Pick one primary method and one or two supporting methods:
-   - Product Cinema for premium product reveals.
-   - Utility Command Center for task-heavy ecommerce, booking, logistics, dashboards.
-   - Editorial Brand World for fashion, sports, beverage, entertainment, luxury campaigns.
-   - Enterprise Trust Hub for B2B, finance, healthcare, infrastructure, industrial.
-   - Card-Based Discovery for marketplaces, media, travel, catalogs, content libraries.
-   - Conversion Simplicity for signup, trial, app download, subscription, fintech flows.
-   - Ecosystem Bundling for multi-product suites.
-   - Premium Restraint for luxury, high-end finance, premium services.
-   - Playful Familiarity for food, toys, family, consumer brands.
-   - Technical Authority for AI, developer tools, semiconductors, infrastructure.
-3. Translate the selected methods into original tokens, layout rules, components, states, and copy.
-4. Never copy a brand exactly unless the user owns that brand. Avoid logos, proprietary images, exact trademark color combinations, and pixel-for-pixel layouts.
-5. Preserve accessibility and usability even when using cinematic, luxury, or experimental layouts.
+2. Pick one primary method and one or two supporting methods. Load the corresponding `references/brand-method-*.md` file for full layout, color, typography, spacing, motion, accessibility, and component specs:
+   - **Product Cinema** → `references/brand-method-product-cinema.md` — premium products, hardware, automotive, luxury.
+   - **Utility Command Center** → `references/brand-method-utility-command-center.md` — ecommerce, logistics, booking, dashboards.
+   - **Editorial Brand World** → `references/brand-method-editorial-brand-world.md` — fashion, sports, beverage, entertainment.
+   - **Enterprise Trust Hub** → `references/brand-method-enterprise-trust-hub.md` — B2B SaaS, finance, healthcare, industrial.
+   - **Card-Based Discovery** → `references/brand-method-card-based-discovery.md` — marketplaces, media, travel, catalogs.
+   - **Conversion Simplicity** → `references/brand-method-conversion-simplicity.md` — signup, trial, subscription, fintech flows.
+   - **Ecosystem Bundling** → `references/brand-method-ecosystem-bundling.md` — multi-product suites, plan comparison.
+   - **Premium Restraint** → `references/brand-method-premium-restraint.md` — ultra-luxury, high-end finance, premium services.
+   - **Playful Familiarity** → `references/brand-method-playful-familiarity.md` — food, toys, family, consumer brands.
+   - **Technical Authority** → `references/brand-method-technical-authority.md` — AI, developer tools, semiconductors, infra.
+3. Apply color psychology: load `references/color-psychology-branding.md` to validate and prescribe the palette for the business type and emotional goal. Output the full palette before any visual design.
+4. Translate the selected methods into original tokens, layout rules, components, states, and copy.
+5. Never copy a brand exactly unless the user owns that brand. Avoid logos, proprietary images, exact trademark color combinations, and pixel-for-pixel layouts.
+6. Preserve accessibility and usability even when using cinematic, luxury, or experimental layouts.
 
 Deliverable additions:
 
+- Brand method selected (with rationale).
+- Color psychology palette (business type, emotional goal, full hex palette, contrast ratios).
 - Brand-inspiration blend.
-- Selected method rationale.
 - Layout archetype.
 - Token direction.
 - Component behavior.
 - Accessibility safeguards.
 - Anti-copy/IP safety note.
+
+### Color Psychology and Branding
+
+When a user describes a product, business type, UI feel, or audience, load `references/color-psychology-branding.md` before prescribing any colors.
+
+Process:
+
+1. Identify: business category, emotional goal (trust/energy/calm/luxury/health/play/authority/innovation), positioning (mass/premium/luxury).
+2. Look up the industry prescription and sentiment mapping in the reference file.
+3. Output the complete palette: primary, secondary, accent/CTA, background, surface, text primary, text secondary, border, semantic success/warning/error/info, and dark mode variant if needed.
+4. State the psychological rationale for each choice.
+5. Warn of anti-patterns for this category.
+6. Verify all text-on-background combinations against WCAG 2.2 AA (4.5:1 body, 3:1 large text/UI).
+7. Include this palette in the `.ui-ux-memory.md` and all handoff specs.
 
 ### Frontend Implementation UX
 
@@ -705,6 +722,17 @@ Use the supporting files in this skill folder when useful:
 - `references/wcag-aa-quick-reference.md` — practical WCAG 2.2 AA reference for agents.
 - `references/design-system-playbook.md` — how to create or extend a design system.
 - `references/top-100-brand-website-analysis.md` — top global brand website patterns and reusable frontend methods.
+- `references/brand-method-product-cinema.md` — full layout, color, typography, spacing, motion, accessibility, and component spec for the Product Cinema design method.
+- `references/brand-method-utility-command-center.md` — full spec for the Utility Command Center design method.
+- `references/brand-method-editorial-brand-world.md` — full spec for the Editorial Brand World design method.
+- `references/brand-method-enterprise-trust-hub.md` — full spec for the Enterprise Trust Hub design method.
+- `references/brand-method-card-based-discovery.md` — full spec for the Card-Based Discovery design method.
+- `references/brand-method-conversion-simplicity.md` — full spec for the Conversion Simplicity design method.
+- `references/brand-method-ecosystem-bundling.md` — full spec for the Ecosystem Bundling design method.
+- `references/brand-method-premium-restraint.md` — full spec for the Premium Restraint design method.
+- `references/brand-method-playful-familiarity.md` — full spec for the Playful Familiarity design method.
+- `references/brand-method-technical-authority.md` — full spec for the Technical Authority design method.
+- `references/color-psychology-branding.md` — color psychology, industry palette prescriptions, sentiment-to-palette mapping, contrast verification, and dark mode adaptation rules.
 - `references/ux-research-methods.md` — research planning, method selection, evidence confidence, and ethical research rules.
 - `references/usability-heuristics.md` — heuristic review, cognitive rules, and severity scoring.
 - `references/platform-guidelines.md` — web, iOS, Android/Material, Windows, desktop, kiosk, email, TV, and cross-platform rules.

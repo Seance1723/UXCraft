@@ -1,0 +1,14 @@
+C:\xampp\htdocs\AI Skills\UI-UX Skills\README.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\SKILL.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-card-based-discovery.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-conversion-simplicity.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-ecosystem-bundling.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-editorial-brand-world.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-enterprise-trust-hub.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-playful-familiarity.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-premium-restraint.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-product-cinema.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-technical-authority.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\brand-method-utility-command-center.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\color-psychology-branding.md
+C:\xampp\htdocs\AI Skills\UI-UX Skills\references\competitive-landscape.md
