@@ -9,7 +9,9 @@
 
 **The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
 
-> **v1.3.0** — 10 dedicated brand-method skill files (Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, Technical Authority) + new Color Psychology and Branding skill for sentiment-driven palette generation.
+> **v1.4.0** — Discovery question form protocol, 5-dimensional self-critique output quality gates, anti-AI-slop blacklist, brand extraction protocol, 5 ready-to-bind OKLch visual directions, and portable 9-section design system schema. Built from a deep audit of [open-design](https://github.com/nexu-io/open-design/) to close the remaining gaps.
+>
+> **v1.3.0** — 10 dedicated brand-method skill files + Color Psychology and Branding skill.
 
 Author: Rupak Biswas.
 
@@ -51,6 +53,12 @@ By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**
 | Hidden from AI tooling | Ships `llms.txt`, machine-readable manifest, system prompt add-ons, and a local MCP server for automatic discovery |
 | Generic color advice | Industry-specific color psychology with sentiment mapping, WCAG contrast verification, and dark mode adaptation |
 | No brand-method depth | 10 dedicated brand-method skill files with full layout, typography, spacing, motion, component specs, and QA checklists |
+| Jumps to visuals without intake | 6-question discovery form locks surface, audience, tone, brand, fidelity, and constraints before any visual work |
+| Guesses brand colors from name | 5-step brand extraction protocol: locate → extract hex → identify type → write brand-spec → vocalise |
+| No visual direction when brand absent | 5 fully-specified OKLch token directions (Neutral Modern, Dark Technical, Warm Editorial, Bold Energetic, Calm Trust) |
+| No output quality gate | 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint) + P0/P1/P2 gates before every emit |
+| Generic AI output patterns | Anti-AI-slop blacklist: purple gradient heroes, left-border accent cards, generic emojis, Inter as display, invented metrics all explicitly forbidden |
+| Inconsistent design tokens per session | Portable 9-section design system schema (DESIGN.md-compatible) as the single source of truth for every project |
 
 ## AI Discoverability
 
@@ -79,8 +87,13 @@ UI/UX Master can help agents produce:
 - SaaS dashboards, data visualization, tables, alerts, ecommerce, checkout, onboarding, settings, auth, forms, and landing pages
 - Ethical UX, privacy, consent, dark-pattern detection, AI transparency, and high-risk domain safeguards
 - Developer handoff with states, tokens, responsive behavior, analytics events, QA, and acceptance criteria
-- **NEW v1.3.0:** 10 top-brand design method skill files — each covering layout structure, color scheme, typography, spacing, motion, component specs, accessibility, anti-patterns, and QA checklist for: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, and Technical Authority
-- **NEW v1.3.0:** Color Psychology and Branding skill — analyzes business type and user sentiment, prescribes industry-appropriate palettes, maps emotions to color families, verifies WCAG contrast, and provides dark mode adaptation rules
+- **NEW v1.4.0:** Discovery question form — structured 6-question intake (surface, audience, tone, brand, fidelity, constraints) runs before any visual output on every new task
+- **NEW v1.4.0:** Brand extraction protocol — 5-step process (locate → extract hex → identify typography → write brand-spec → vocalise) prevents guessing brand colors from memory
+- **NEW v1.4.0:** Visual directions — 5 fully-specified OKLch token directions (Neutral Modern, Dark Technical, Warm Editorial, Bold Energetic, Calm Trust) with complete CSS token blocks for brandless projects
+- **NEW v1.4.0:** Output quality gates — 5-dimensional self-critique scored before every emit; P0/P1/P2 hard gates; anti-AI-slop blacklist (purple gradients, generic emojis, invented metrics, Inter-as-hero and 10+ other forbidden patterns explicitly banned)
+- **NEW v1.4.0:** Design system schema — portable 9-section format (color, typography, spacing, layout, components, motion, voice, brand, anti-patterns) compatible with the DESIGN.md convention; used as the template for all `.ui-ux-memory.md` files
+- **NEW v1.4.0:** Junior designer warm-up — wireframe-first pass for high-fidelity requests, confirms layout before applying brand and polish
+- **v1.3.0:** 10 top-brand design method skill files + Color Psychology and Branding skill
 
 ## Install with npm
 
@@ -244,7 +257,7 @@ ui-ux-master uninstall --project
 
 - `SKILL.md` — main orchestration skill.
 - `index.mjs`, `index.cjs`, `index.d.ts` — ESM, CommonJS, and TypeScript metadata entrypoints.
-- `references/` — advanced playbooks and standards-aligned checklists, including 10 brand-method skill files and the color psychology branding guide.
+- `references/` — advanced playbooks and standards-aligned checklists, including 10 brand-method skill files, color psychology guide, discovery protocol, output quality gates, 5 visual directions, and 9-section design system schema.
 - `templates/` — briefs, audits, component specs, design-system specs, and project UI/UX memory template.
 - `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal `/ui-ux-master` activation rules.
 - `docs/` — cross-agent slash-command compatibility docs and MCP server docs.
@@ -306,8 +319,11 @@ UI/UX Master is designed to outperform narrow UI prompt packs and simple design 
 6. Release engineering: npm packaging, CLI installer, validation, tests, and deployment zip.
 7. Advanced risk coverage: ethics, privacy, dark patterns, localization, platform conventions, high-risk domains, and AI UX transparency.
 8. AI discoverability: `llms.txt`, manifest, system prompt add-ons, and local MCP server.
-9. **NEW v1.3.0:** Brand-method depth: 10 dedicated skill files covering the full design spec (layout, color, typography, spacing, motion, accessibility, components, anti-patterns, QA) for each of the 10 top-brand design methods.
-10. **NEW v1.3.0:** Color psychology branding: industry-by-industry palette prescriptions, sentiment-to-color mapping, WCAG contrast verification, and dark mode adaptation — all derived from the psychology of color in branding.
+9. Brand-method depth: 10 dedicated skill files covering the full design spec (layout, color, typography, spacing, motion, accessibility, components, anti-patterns, QA) for each of the 10 top-brand design methods.
+10. Color psychology branding: industry-by-industry palette prescriptions, sentiment-to-color mapping, WCAG contrast verification, and dark mode adaptation.
+11. **NEW v1.4.0:** Discovery-first workflow: structured intake before visuals, brand extraction protocol, visual directions for brandless projects, junior-designer warm-up pass.
+12. **NEW v1.4.0:** Quality-gated output: 5-dimensional self-critique + P0/P1/P2 gates + anti-slop blacklist enforce professional output standards before any emit.
+13. **NEW v1.4.0:** Portable design system schema: 9-section DESIGN.md-compatible format as the project memory backbone, ensuring token consistency across every session.
 
 ## Deployment Readiness Checklist
 

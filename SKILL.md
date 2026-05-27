@@ -1,7 +1,7 @@
 ---
 name: ui-ux-master
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
-version: 1.3.0
+version: 1.4.0
 author: Rupak Biswas
 license: MIT
 platforms: [linux, macos, windows]
@@ -40,16 +40,19 @@ Use MCP and system prompt add-ons only as discovery/activation layers. The workf
 
 Do not jump directly to visuals. Work in this order unless the user explicitly asks for a narrow task:
 
-1. Check for existing UI/UX memory and branding first: `.ui-ux-memory.md`, design tokens, CSS variables, theme files, existing components, fonts, color scheme, and representative screens.
-2. If memory exists, follow it as the design baseline. If no memory exists, create one for the application using `templates/ui-ux-memory.md` after inspecting existing branding or asking minimum high-value questions for a fresh project.
-3. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
-4. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
-5. Select an appropriate top-brand design method when frontend polish is requested: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority. Each method has a dedicated skill file in `references/brand-method-*.md` — load the appropriate one.
-5a. Apply color psychology when the user describes a business type or emotional goal. Load `references/color-psychology-branding.md`, identify the industry and sentiment, and prescribe a complete palette with contrast ratios and rationale before any visual design begins.
-6. Design the interface by extending the existing memory/brand baseline unless the user explicitly asks for a redesign or specific visual modification.
-7. Validate: consistency with memory, research evidence, heuristics, WCAG, platform conventions, usability risks, i18n, ethics/privacy, edge cases, technical feasibility, metrics, and brand-fit.
-8. Update the application UI/UX memory with durable design decisions before handoff.
-9. Hand off: exact specs, tokens, component behavior, copy, states, QA checklist, implementation notes.
+1. **Discovery first.** Load `references/design-discovery-protocol.md`. For any new design task, run the 6-question discovery form before producing any visual output. Lock down: surface, audience, tone, brand context, fidelity, and constraints.
+2. **Brand extraction or visual direction.** If the user provides brand assets (URL, screenshot, hex codes), run the 5-step brand extraction protocol from `references/design-discovery-protocol.md` and write a brand-spec summary. If there is no brand, load `references/visual-directions.md`, present the 5 directions, and bind the selected direction's token block as the baseline. Never invent or guess brand colors from a company name alone.
+3. **Check project memory.** Look for `.ui-ux-memory.md` at the project root. If it exists, read all 9 sections (schema defined in `references/design-system-schema.md`) before designing. If it does not exist, create it using the schema after discovery completes.
+4. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
+5. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
+6. Select an appropriate top-brand design method when frontend polish is requested. Load the corresponding `references/brand-method-*.md` file: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
+6a. Apply color psychology: load `references/color-psychology-branding.md`, identify the industry and sentiment, prescribe a complete palette with contrast ratios and rationale before any visual design begins.
+7. **Junior designer warm-up.** For high-fidelity requests, show a wireframe sketch (grey blocks, real layout) first. Confirm direction before applying brand and polish. Skip if the user explicitly requests final output or provides a detailed reference.
+8. Design the interface by extending the established brand/direction baseline. Apply only tokens from the schema — no ad-hoc magic values.
+9. **Quality gates before any emit.** Load `references/output-quality-gates.md`. Run the 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint), pass all P0 hard gates, and clear the anti-slop blacklist. Fix and rescore until all dimensions ≥ 3. Do not emit output until all gates pass.
+10. Validate: consistency with memory, research evidence, heuristics, WCAG, platform conventions, usability risks, i18n, ethics/privacy, edge cases, technical feasibility, metrics, and brand-fit.
+11. Update `.ui-ux-memory.md` with any new durable design decisions before handoff.
+12. Hand off: exact specs, tokens, component behavior, copy, states, QA checklist, implementation notes.
 
 ## When to Use
 
@@ -721,6 +724,10 @@ Use the supporting files in this skill folder when useful:
 - `references/ui-ux-frontend-implementation-rules.md` — mandatory frontend implementation rules so agents do not miss stack inspection, states, accessibility, responsiveness, tokens, QA, or handoff.
 - `references/wcag-aa-quick-reference.md` — practical WCAG 2.2 AA reference for agents.
 - `references/design-system-playbook.md` — how to create or extend a design system.
+- `references/design-discovery-protocol.md` — 6-question discovery form, brand extraction 5-step protocol, junior designer warm-up, and discovery checklist. Load at the start of every new design task.
+- `references/output-quality-gates.md` — 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint), P0/P1/P2 hard gates, anti-AI-slop blacklist, and honest placeholder protocol. Run before every design emit.
+- `references/visual-directions.md` — 5 fully-specified OKLch token directions (Neutral Modern, Dark Technical, Warm Editorial, Bold Energetic, Calm Trust) for projects with no brand. Each direction includes complete CSS token block ready to bind.
+- `references/design-system-schema.md` — portable 9-section design system schema (color, typography, spacing, layout, components, motion, voice, brand, anti-patterns). Use as the template for all `.ui-ux-memory.md` files.
 - `references/top-100-brand-website-analysis.md` — top global brand website patterns and reusable frontend methods.
 - `references/brand-method-product-cinema.md` — full layout, color, typography, spacing, motion, accessibility, and component spec for the Product Cinema design method.
 - `references/brand-method-utility-command-center.md` — full spec for the Utility Command Center design method.
