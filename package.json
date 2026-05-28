@@ -1,6 +1,6 @@
 {
   "name": "uxcraft",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Opt-in UXCraft skill, CLI, and MCP server for AI coding agents — accessibility, design systems, UX research, and frontend handoff in one workflow.",
   "type": "module",
   "packageManager": "npm@10.9.2",

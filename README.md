@@ -72,6 +72,14 @@ Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any 
 
 ## What's New
 
+### v1.5.1 — Rebranded to UXCraft *(May 2026)*
+
+- Package renamed from `ui-ux-master` to `uxcraft`
+- CLI command updated: `uxcraft` (backward-compatible alias `ui-ux-master` kept as deprecated)
+- MCP server renamed to `uxcraft-mcp`
+- All agent templates, system prompts, and trigger phrases updated to `/uxcraft`
+- All tests, validator, and manifest updated for new branding
+
 ### v1.5.0 — Industry Intelligence Update *(May 2026)*
 
 - **Industry Reasoning Engine** — describe your product, get a complete Design System Block instantly (pattern + style + palette + typography + effects + anti-patterns) for 15+ industries
