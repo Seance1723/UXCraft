@@ -2,10 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/uxcraft?logo=npm&label=npm&color=6366f1)](https://www.npmjs.com/package/uxcraft)
 [![downloads](https://img.shields.io/npm/dm/uxcraft?logo=npm&label=downloads&color=10b981)](https://www.npmjs.com/package/uxcraft)
-[![License: MIT](https://img.shields.io/npm/l/uxcraft?color=f59e0b)](https://github.com/Seance1723/UI-UX-Skills/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/npm/l/uxcraft?color=f59e0b)](https://github.com/Seance1723/UXCraft/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/Seance1723/UI-UX-Skills?style=flat&logo=github)](https://github.com/Seance1723/UI-UX-Skills/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/Seance1723/UI-UX-Skills?logo=github)](https://github.com/Seance1723/UI-UX-Skills/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/Seance1723/UXCraft?style=flat&logo=github)](https://github.com/Seance1723/UXCraft/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Seance1723/UXCraft?logo=github)](https://github.com/Seance1723/UXCraft/commits/main)
 
 **Turn your AI coding agent into a Senior Product Designer, UX Researcher, and Frontend Lead — in one command.**
 
@@ -71,6 +71,16 @@ Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any 
 ---
 
 ## What's New
+
+### v1.5.4 — Security policy & supply chain hardening *(May 2026)*
+
+- Added `SECURITY.md` with vulnerability reporting policy and response timeline
+- Zero runtime dependencies — no transitive supply chain risk
+
+### v1.5.3 — GitHub repo renamed to UXCraft *(May 2026)*
+
+- Updated all GitHub URLs to `https://github.com/Seance1723/UXCraft`
+- Updated README badges, repository, homepage, and bugs fields
 
 ### v1.5.2 — Source provenance fix *(May 2026)*
 

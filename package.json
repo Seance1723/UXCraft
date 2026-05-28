@@ -1,6 +1,6 @@
 {
   "name": "uxcraft",
-  "version": "1.5.2",
+  "version": "1.5.4",
   "description": "Opt-in UXCraft skill, CLI, and MCP server for AI coding agents — accessibility, design systems, UX research, and frontend handoff in one workflow.",
   "type": "module",
   "packageManager": "npm@10.9.2",
@@ -31,6 +31,7 @@
     "SKILL.md",
     "README.md",
     "LICENSE",
+    "SECURITY.md",
     "package.json",
     "index.cjs",
     "index.d.ts",
@@ -110,14 +111,14 @@
       "name": "Rupak Biswas"
     }
   ],
-  "homepage": "https://github.com/Seance1723/UI-UX-Skills#readme",
+  "homepage": "https://github.com/Seance1723/UXCraft#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Seance1723/UI-UX-Skills.git",
+    "url": "git+https://github.com/Seance1723/UXCraft.git",
     "directory": "."
   },
   "bugs": {
-    "url": "https://github.com/Seance1723/UI-UX-Skills/issues"
+    "url": "https://github.com/Seance1723/UXCraft/issues"
   },
   "funding": {
     "type": "github",
